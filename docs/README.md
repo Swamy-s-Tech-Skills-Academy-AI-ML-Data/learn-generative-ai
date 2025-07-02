@@ -5,6 +5,7 @@ Welcome to the comprehensive documentation for the Learn Generative AI course. T
 ## 📚 Documentation Structure
 
 ### Core Concepts
+
 - [Generative AI Fundamentals](concepts/generative-ai-fundamentals.md)
 - [Language Models](concepts/language-models.md)
 - [Transformers Architecture](concepts/transformers.md)
@@ -15,6 +16,7 @@ Welcome to the comprehensive documentation for the Learn Generative AI course. T
 - [Multimodal AI](concepts/multimodal.md)
 
 ### Tutorials
+
 - [Environment Setup Guide](tutorials/environment-setup.md)
 - [API Integration](tutorials/api-integration.md)
 - [Building Your First Chatbot](tutorials/first-chatbot.md)
@@ -23,6 +25,7 @@ Welcome to the comprehensive documentation for the Learn Generative AI course. T
 - [Deployment Guide](tutorials/deployment.md)
 
 ### Reference
+
 - [API Reference](reference/api-reference.md)
 - [Model Comparison](reference/model-comparison.md)
 - [Hyperparameter Tuning](reference/hyperparameters.md)
