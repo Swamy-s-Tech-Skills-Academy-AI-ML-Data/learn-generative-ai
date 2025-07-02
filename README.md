@@ -85,7 +85,7 @@ learn-generative-ai/
 
 ## 🛠️ Prerequisites
 
-- Python 3.8+
+- Python 3.12.5
 - Basic programming knowledge
 - Willingness to experiment and learn
 - OpenAI API key (free tier available)
