@@ -166,7 +166,7 @@ agent_executor_with_memory = AgentExecutor(
 ### Installation
 
 ```bash
-pip install pyautogen
+pip install ag2
 ```
 
 ### Basic Multi-Agent Setup
