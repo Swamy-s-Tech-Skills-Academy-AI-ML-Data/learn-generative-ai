@@ -1,4 +1,4 @@
-"""Extract contact details from free-form text.
+r"""Extract contact details from free-form text.
 
 Fields extracted:
 - first_name
@@ -8,8 +8,8 @@ Fields extracted:
 - phone
 
 Usage (PowerShell):
-  py .\src\day2\extract_contact_info.py               # runs on built-in sample
-  py .\src\day2\extract_contact_info.py .\path\to\file.txt
+    py .\src\day2\extract_contact_info.py               # runs on built-in sample
+    py .\src\day2\extract_contact_info.py .\path\to\file.txt
 """
 
 from __future__ import annotations
@@ -86,12 +86,12 @@ def extract_info(text: str) -> Dict[str, Optional[str]]:
 
 
 SAMPLE_TEXT = (
-    "Hello. My name is Amit Bahree. I’m calling from Acme Insurance, Seattle, WA. "
-    "My colleague mentioned that you are interested in learning about our comprehensive benefits policy. "
-    "Could you give me a call back at (555) 111-2222 when you get a chance so we can go over the benefits? "
-    "I can be reached Monday to Friday during normal business hours of PST. "
-    "If you want you can also try and reach me on emails at aweomseinsurance@acme.com. "
-    "Thanks, Amit."
+    "Hi there. I'm Priya Sharma from Contoso Health, Austin, TX. "
+    "I heard you're exploring our employee wellness packages. "
+    "When you have a moment, please call me at 425-555-0139 so we can review options. "
+    "I'm available Monday to Friday during normal business hours Central Time. "
+    "You can also reach me by email at priya.sharma@contosohealth.com. "
+    "Thanks, Priya."
 )
 
 
