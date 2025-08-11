@@ -419,3 +419,17 @@ FodyWeavers.xsd
 
 # Virtual Environment for Python projects
 .venv/
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Caches / models
+.cache/
+.hf_cache/
