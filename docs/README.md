@@ -40,9 +40,11 @@ Welcome to the comprehensive documentation for the Learn Generative AI course. T
 3. **Reference as Needed**: Use reference materials while coding
 4. **Theory + Practice**: Each concept is tied to practical code examples
 
-## 📖 Learning Path
+## 📖 Learning Paths
 
-For beginners, we recommend this learning sequence:
+- Recommended: [45-Day Generative AI Learning Plan](learning-path-45-days.md)
+
+Quick start path for beginners:
 
 1. [Generative AI Fundamentals](concepts/generative-ai-fundamentals.md)
 2. [Environment Setup Guide](tutorials/environment-setup.md)
