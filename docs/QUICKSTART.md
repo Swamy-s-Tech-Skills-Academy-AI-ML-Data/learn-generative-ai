@@ -2,7 +2,7 @@
 
 Welcome to your Generative AI learning journey! Here's how to get started immediately.
 
-## ✅ Setup Complete!
+## ✅ Setup Complete
 
 Your environment is ready:
 
@@ -75,7 +75,7 @@ We start minimal and add packages as needed:
 - 🔍 Search the codebase for examples
 - 💬 Remember: This is a marathon, not a sprint!
 
-## 🎯 Ready? Let's Go!
+## 🎯 Ready? Let's Go
 
 Start with Chapter 01 and begin your journey from Generative AI foundations to building AI Agents!
 
