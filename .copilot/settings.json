@@ -1,0 +1,35 @@
+{
+    "version": "1",
+    "instructions": {
+        "path": ".github/copilot-instructions.md"
+    },
+    "project": {
+        "name": "learn-generative-ai",
+        "language": "python",
+        "pythonVersion": "3.12.5",
+        "venvFolder": ".venv",
+        "os": "windows",
+        "shell": "pwsh"
+    },
+    "workspace": {
+        "include": [
+            "src/**",
+            "notebooks/**",
+            "docs/**"
+        ],
+        "exclude": [
+            ".venv/**",
+            ".git/**",
+            "**/.ipynb_checkpoints/**",
+            "**/__pycache__/**",
+            "data/**"
+        ]
+    },
+    "notebooks": {
+        "defaultKernel": ".venv",
+        "rules": {
+            "cellMetadataLanguageRequired": true,
+            "preserveCellIds": true
+        }
+    }
+}
