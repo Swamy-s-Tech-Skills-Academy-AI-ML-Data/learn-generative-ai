@@ -2,7 +2,7 @@
 
 Welcome to your Generative AI learning journey! Here's how to get started immediately.
 
-## ✅ Setup Complete!
+## ✅ Setup Complete
 
 Your environment is ready:
 
@@ -19,14 +19,14 @@ Your environment is ready:
 # Start Jupyter
 jupyter notebook
 
-# Open: src/chapter-01/01_generative_ai_foundations.ipynb
+# Open: notebooks/day1/01_generative_ai_foundations.ipynb
 ```
 
 ### Option 2: Quick Python Script
 
 ```bash
 # Run the basic concepts script
-cd src/chapter-01
+cd src/day1
 python basic_concepts.py
 ```
 
@@ -75,12 +75,12 @@ We start minimal and add packages as needed:
 - 🔍 Search the codebase for examples
 - 💬 Remember: This is a marathon, not a sprint!
 
-## 🎯 Ready? Let's Go!
+## 🎯 Ready? Let's Go
 
 Start with Chapter 01 and begin your journey from Generative AI foundations to building AI Agents!
 
 ```bash
-cd src/chapter-01
+cd notebooks/day1
 jupyter notebook 01_generative_ai_foundations.ipynb
 ```
 

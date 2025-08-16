@@ -153,7 +153,7 @@ def next_steps():
     print("-" * 15)
     print()
     print("1. 📓 Open the Jupyter notebook for interactive learning:")
-    print("   jupyter notebook 01_generative_ai_foundations.ipynb")
+    print("   cd ../../notebooks/day1 && jupyter notebook 01_generative_ai_foundations.ipynb")
     print()
     print("2. 📁 Move to Chapter 02 for environment setup:")
     print("   cd ../chapter-02/")
