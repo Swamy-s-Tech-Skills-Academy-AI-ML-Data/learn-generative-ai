@@ -131,3 +131,75 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ## **How to Use `a4_embeddings.py`**
+
+# ### 1️⃣ Install dependencies
+# ```bash
+# pip install openai tiktoken faiss-cpu numpy
+# ```
+
+# ### 2️⃣ Set your API key
+# ```bash
+# export OPENAI_API_KEY="your-api-key"   # macOS/Linux
+# setx OPENAI_API_KEY "your-api-key"     # Windows PowerShell
+# ```
+
+# ---
+
+# ### 3️⃣ Example Usages
+
+# #### **Default sample texts + search**
+# ```bash
+# python a4_embeddings.py --query "Tell me about AI"
+# ```
+# **Example Output:**
+# ```
+# [Info] No input provided. Using default sample texts.
+# [Info] Token count: 7
+# ...
+# [Query] Tell me about AI
+# [Info] Token count: 4
+
+# [Results]
+# 1. Artificial Intelligence is transforming the world. (distance: 0.2371)
+# 2. OpenAI develops advanced AI models. (distance: 0.3895)
+# 3. Python is a popular programming language. (distance: 0.8120)
+# ```
+
+# ---
+
+# #### **Custom text dataset from file**
+# **`dataset.txt`**
+# ```
+# Bananas are yellow.
+# Apples are red or green.
+# Grapes are small and sweet.
+# ```
+# Run:
+# ```bash
+# python a4_embeddings.py --file dataset.txt --query "Which fruit is green?"
+# ```
+
+# ---
+
+# #### **Single text list**
+# ```bash
+# python a4_embeddings.py --text "The Pacific Ocean is the largest ocean." --query "largest ocean"
+# ```
+
+# ---
+
+# ✅ This script now:
+# - **Generates embeddings**
+# - **Stores them in FAISS**
+# - **Performs semantic search**
+
+# ---
+
+# If you want, I can make **`a5_embeddings.py`** where:
+# - FAISS index is **saved to disk** and **loaded later** without re-generating embeddings every time
+# - You can **incrementally add new texts** to your vector store
+
+# Do you want me to make that persistent FAISS version? That way your search database survives between runs.
