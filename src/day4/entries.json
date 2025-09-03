@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Eiffel Tower",
+        "category": "travel",
+        "content": "The Eiffel Tower is located in Paris, France."
+    },
+    {
+        "title": "Python Language",
+        "category": "technology",
+        "content": "Python is a popular programming language."
+    }
+]
