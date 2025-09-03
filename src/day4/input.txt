@@ -1,0 +1,3 @@
+The moon orbits the Earth.  
+Python is a popular programming language.  
+OpenAI develops AI technology.  
