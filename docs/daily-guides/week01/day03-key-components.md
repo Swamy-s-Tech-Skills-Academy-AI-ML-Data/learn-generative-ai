@@ -1,11 +1,40 @@
 # Day 3: Key Components & Architecture (30 min)
 
-## 📖 Reading Focus (10 minutes)
+## 📖 Core Concepts (10 minutes)
 
-**Primary Source**: [`do../archived/concepts/generative-ai-fundamentals.md`](../archived/concepts/generative-ai-fundamentals.md)
+### Key Components of Generative AI Systems
 
-- **Focus sections**: "Key Components" section
-- **Goal**: Understand the building blocks of GenAI systems
+#### 1. **Tokenizer** (Text Processor)
+
+- **Role**: Converts text into numbers AI can process
+- **Example**: "Hello world" → [15496, 995] (token IDs)
+- **Quality Impact**: Better tokenization = better understanding
+
+#### 2. **Neural Network** (The Brain)
+
+- **Architecture**: Transformer blocks with attention mechanisms
+- **Parameters**: Billions of learned weights
+- **Function**: Processes tokens and predicts next elements
+
+#### 3. **Sampling Strategy** (Output Controller)
+
+- **Greedy**: Always pick most likely next word (predictable)
+- **Random**: Sample from probability distribution (creative)
+- **Temperature**: Controls randomness vs consistency
+
+### System Architecture Flow
+
+```text
+Input Text → Tokenizer → Neural Network → Sampling → Output Text
+  "Hello"  →  [15496]  →  Probabilities →  Selection →  "world"
+```
+
+### Quality Levers You Can Control
+
+1. **Temperature**: Higher = more creative, Lower = more predictable
+2. **Max Tokens**: How long the output should be
+3. **Top-k/Top-p**: Limit word choices for better quality
+4. **System Prompts**: Guide the AI's behavior and style
 
 ### Key Questions to Answer
 
@@ -15,7 +44,7 @@
 
 ## 🔬 Notebook Practice (15 minutes)
 
-**Notebook**: [`notebooks/weekly/week01/genai-exploration.ipynb`](../../notebooks/weekly/week01/genai-exploration.ipynb)
+**Notebook**: [`week01-comprehensive-practice.ipynb`](../../../notebooks/weekly/week01/week01-comprehensive-practice.ipynb)
 
 - **Section**: "Day 3: System Architecture"
 - **Activities**:

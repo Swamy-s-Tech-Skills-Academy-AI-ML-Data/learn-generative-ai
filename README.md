@@ -161,7 +161,10 @@ Each day follows this optimized 30-minute format for maximum learning efficiency
 
 ### Week 1 Supporting Materials
 
-**🔬 Interactive Practice:** [Week 1 Notebook](notebooks/weekly/week01/genai-exploration.ipynb) - Comprehensive hands-on exercises for all 5 days
+**🔬 Interactive Practice:**
+- [Week 1 Comprehensive Practice](notebooks/weekly/week01/week01-comprehensive-practice.ipynb) - Integrated exercises for all 5 days
+- [Daily Practice Notebooks](notebooks/weekly/week01/) - Individual day-specific practice (day01-day05)
+- [Bonus Day 1 Foundations](notebooks/weekly/week01/bonus-day01-foundations.ipynb) - Additional foundational exercises
 
 **📖 Reference Materials:** Access [archived concepts](docs/archived/concepts/) when you need deeper theoretical exploration
 

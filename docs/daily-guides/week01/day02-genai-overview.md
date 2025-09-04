@@ -1,11 +1,44 @@
 # Day 2: How GenAI Works (Overview) (30 min)
 
-## 📖 Reading Focus (10 minutes)
+## 📖 Core Concepts (10 minutes)
 
-**Primary Source**: [`do../archived/concepts/generative-ai-fundamentals.md`](../archived/concepts/generative-ai-fundamentals.md)
+### How Generative AI Works
 
-- **Focus sections**: "How Generative AI Works" (first half)
-- **Goal**: Understand the high-level training concept
+#### 1. **Training Phase**
+
+```text
+Large Dataset → Neural Network → Learned Patterns
+```
+
+- Feed massive amounts of data to neural networks
+- Network learns statistical relationships
+- Captures patterns, context, and structure
+- **Example**: Show millions of text examples, AI learns grammar, facts, reasoning patterns
+
+#### 2. **Generation Phase**
+
+```text
+Input Prompt → Model Processing → Generated Output
+```
+
+- User provides input (prompt)
+- Model uses learned patterns to generate response
+- Output reflects training data patterns
+- **Example**: Given "The weather is", AI predicts "sunny", "cloudy", etc. based on learned patterns
+
+#### 3. **Key Components**
+
+##### Neural Networks
+
+- **Transformers**: Current dominant architecture
+- **Attention Mechanisms**: Focus on relevant parts of input
+- **Parameters**: Billions of learned weights (like memory)
+
+##### Training Data
+
+- **Scale**: Trillions of tokens/images
+- **Quality**: Carefully curated and filtered
+- **Diversity**: Multiple domains and styles
 
 ### Key Questions to Answer
 
@@ -15,7 +48,7 @@
 
 ## 🔬 Notebook Practice (15 minutes)
 
-**Notebook**: [`notebooks/weekly/week01/genai-exploration.ipynb`](../../notebooks/weekly/week01/genai-exploration.ipynb)
+**Notebook**: [`week01-comprehensive-practice.ipynb`](../../../notebooks/weekly/week01/week01-comprehensive-practice.ipynb)
 
 - **Section**: "Day 2: Training vs Generation"
 - **Activities**:
@@ -28,7 +61,7 @@
 - [ ] Sketch the high-level training concept
 - [ ] Explore training data examples in the notebook
 - [ ] Run the "pattern learning" simulation
-- [ ] Browse introduction cells in `docs/archived/day1/01_generative_ai_foundations.ipynb`
+- [ ] Review training vs generation comparison
 
 ## 🤔 Reflection & Planning (5 minutes)
 
