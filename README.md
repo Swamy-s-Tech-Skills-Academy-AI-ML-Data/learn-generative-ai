@@ -53,7 +53,7 @@ learn-generative-ai/
 │   ├── daily-guides/          ← START HERE - 30-minute daily sessions  
 │   │   └── week01/            ← Week 1: Days 1-5 guides
 │   ├── learning-path-90-days.md ← Complete curriculum overview
-│   └── archived/              ← Supporting materials (access when needed)
+│   └── archived/              ← Legacy materials (for reference only)
 ├── notebooks/                 ← Weekly hands-on practice
 │   └── weekly/week01/         ← Interactive coding exercises
 ├── src/                       ← Working code examples
@@ -77,7 +77,7 @@ learn-generative-ai/
 
 **📋 Complete Overview?** See [90-Day Learning Path](docs/learning-path-90-days.md) for the full curriculum structure.
 
-**🔍 Need Background?** Access [archived concepts](docs/archived/concepts/) when you want deeper theoretical exploration.
+**🔍 Need Extra Practice?** Each daily guide and notebook contains comprehensive content for complete learning.
 
 ### Original Content Philosophy
 
@@ -169,7 +169,7 @@ Each day follows this optimized 30-minute format for maximum learning efficiency
 - [Day 4: Probability Basics](notebooks/weekly/week01/day04-probability-basics.ipynb) - AI-focused probability distributions with visualizations
 - [Day 5: Loss Functions](notebooks/weekly/week01/day05-loss-functions.ipynb) - Comprehensive loss analysis with training dynamics
 
-**📖 Reference Materials:** Access [archived concepts](docs/archived/concepts/) when you need deeper theoretical exploration
+**📖 Additional Resources:** Advanced topics and reference materials available upon request
 
 **💻 Code Examples:** Explore [src/a1/](src/a1/) for basic concepts and hello world implementations
 
@@ -233,7 +233,7 @@ This workspace thrives on collaborative learning! Contributions welcome:
 
 **🎯 Want the big picture first?** Check [90-Day Learning Path](docs/learning-path-90-days.md)
 
-**💡 Questions or stuck?** All supporting materials available in [docs/archived/](docs/archived/)
+**💡 Questions or need help?** Each daily guide contains complete learning materials - no external dependencies needed!
 
 ---
 

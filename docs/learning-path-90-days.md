@@ -7,14 +7,14 @@ Note: Paths below are relative to the repository root.
 ## Week 1 — Generative AI Introduction (Days 1–5)
 
 - Day 1 — What is Generative AI
-  - Read: `docs/archived/concepts/generative-ai-fundamentals.md` (intro + key characteristics)
+  - Read: `docs/daily-guides/week01/day01-genai-intro.md` (intro + key characteristics)
   - Do: Write 3 concrete outputs you want GenAI to produce in your domain.
   - Reflect: 10 minutes on potential applications
 
 - Day 2 — How GenAI Works (Overview)
   - Read: same file, "How Generative AI Works" (first half)
   - Do: Sketch the high-level training concept
-  - Explore: Browse `docs/archived/day1/01_generative_ai_foundations.ipynb` (introduction cells)
+  - Explore: Browse `notebooks/weekly/week01/day01-genai-intro.ipynb` (introduction cells)
 
 - Day 3 — Key Components & Architecture
   - Read: same file, "Key Components" section
@@ -61,7 +61,7 @@ Note: Paths below are relative to the repository root.
 ## Week 3 — Language Models Foundations (Days 11–15)
 
 - Day 11 — Language Models Evolution I
-  - Read: `docs/archived/concepts/language-models.md` (statistical era)
+  - Read: **To be developed** (statistical era language models)
   - Do: Understand n-gram limitations
   - Study: Historical progression of language modeling
 
@@ -71,29 +71,29 @@ Note: Paths below are relative to the repository root.
   - Visualize: Study transformer architecture diagrams
 
 - Day 13 — Tokenization Introduction
-  - Read: `docs/archived/concepts/tokenization-fundamentals.md` (introduction)
+  - Read: **To be developed** (tokenization fundamentals)
   - Do: Understand why tokenization is needed
   - Practice: Basic text splitting examples
 
 - Day 14 — Embeddings Introduction
-  - Read: `docs/archived/concepts/embeddings-fundamentals.md` (introduction + basic concepts)
+  - Read: **To be developed** (embeddings fundamentals)
   - Do: Explain how embeddings enable similarity
   - Concept: Understand discrete → continuous transformation
 
 - Day 15 — Transformer Blocks Overview
-  - Read: `docs/archived/concepts/language-models.md`, "Transformer Blocks" (overview)
+  - Read: **To be developed** (transformer blocks overview)
   - Do: Sketch basic transformer components
   - Study: Attention + FFN + residuals overview
 
 ## Week 4 — Tokenization Fundamentals (Days 16–20)
 
 - Day 16 — Tokenization Concepts Deep Dive
-  - Read: `docs/archived/concepts/tokenization-fundamentals.md` (complete)
-  - Workshop: Begin `docs/archived/tutorials/day3-tokenization-workshop.md` (intro)
+  - Read: **To be developed** (tokenization fundamentals)
+  - Workshop: **To be developed** (tokenization workshop intro)
   - Do: Understand subword tokenization benefits
 
 - Day 17 — BPE and Subword Tokenization I
-  - Read: `docs/archived/reference/tokenization-reference.md` (BPE section)
+  - Read: **To be developed** (BPE tokenization reference)
   - Workshop: Day 3 Workshop Experiment 1
   - Code: Basic tokenization with `src/a2/a1_countingtokens.py`
 
@@ -115,7 +115,7 @@ Note: Paths below are relative to the repository root.
 ## Week 5 — Advanced Tokenization (Days 21–25)
 
 - Day 21 — Morphological Analysis I
-  - Read: `docs/archived/tutorials/bpe-morphological-discovery.md` (first half)
+  - Read: **To be developed** (BPE morphological analysis)
   - Code: Explore `src/a2/a2_morphological_bpe.py`
   - Study: How BPE handles word formation
 
@@ -135,21 +135,21 @@ Note: Paths below are relative to the repository root.
   - Do: Document tokenizer choice impacts
 
 - Day 25 — Tokenization Best Practices
-  - Read: `docs/archived/reference/tokenization-reference.md` (troubleshooting)
+  - Read: **To be developed** (tokenization troubleshooting)
   - Workshop: Complete Day 3 summary and reflection
   - Project: Design tokenization strategy for custom application
 
 ## Week 6 — Embeddings Fundamentals (Days 26–30)
 
 - Day 26 — Embeddings Concepts Deep Dive
-  - Read: `docs/archived/concepts/embeddings-fundamentals.md` (complete review)
-  - Workshop: Begin `docs/archived/tutorials/day4-embeddings-workshop.md`
+  - Read: **To be developed** (embeddings concepts deep dive)
+  - Workshop: **To be developed** (embeddings workshop)
   - Understand: Vector space properties
 
 - Day 27 — Embedding Generation I
-  - Workshop: Day 4 Workshop Experiment 1
+  - Workshop: **To be developed** (embedding generation workshop)
   - Code: Run `src/a3/a1_embeddings.py`
-  - Notebook: Begin `docs/archived/day4/04_embeddings_discovery_laboratory.ipynb`
+  - Notebook: **To be developed** (embeddings discovery lab)
 
 - Day 28 — Embedding Generation II
   - Workshop: Day 4 Workshop Experiment 2
@@ -223,7 +223,7 @@ Note: Paths below are relative to the repository root.
 ## Week 9 — Attention Mechanisms (Days 41–45)
 
 - Day 41 — Attention Fundamentals
-  - Read: `docs/archived/concepts/language-models.md`, "Attention Mechanism"
+  - Read: **To be developed** (attention mechanism)
   - Do: Summarize self-attention in your own words
   - Study: Attention as weighted averaging
 
@@ -250,7 +250,7 @@ Note: Paths below are relative to the repository root.
 ## Week 10 — Context and Efficiency (Days 46–50)
 
 - Day 46 — Context Window Fundamentals
-  - Read: `docs/archived/concepts/language-models.md`, "Context Window"
+  - Read: **To be developed** (context window concepts)
   - Do: Understand context limitations
   - Study: Memory and computational constraints
 
@@ -277,7 +277,7 @@ Note: Paths below are relative to the repository root.
 ## Week 11 — Training and Model Types (Days 51–55)
 
 - Day 51 — Training Process I: Data Collection
-  - Read: `docs/archived/concepts/language-models.md`, "Training Process" (data)
+  - Read: **To be developed** (training process and data)
   - Study: Data collection strategies
   - Do: List 3 data quality risks
 
@@ -304,7 +304,7 @@ Note: Paths below are relative to the repository root.
 ## Week 12 — Model Families and Evaluation (Days 56–60)
 
 - Day 56 — Model Families I: GPT
-  - Read: `docs/archived/concepts/language-models.md`, "Types" (GPT)
+  - Read: **To be developed** (language model types - GPT)
   - Study: Decoder-only architecture
   - Do: Identify GPT use cases
 
@@ -331,7 +331,7 @@ Note: Paths below are relative to the repository root.
 ## Week 13 — Prompting Fundamentals (Days 61–65)
 
 - Day 61 — Prompt Engineering Basics I
-  - Read: `docs/archived/concepts/language-models.md`, "Prompt Engineering" (principles)
+  - Read: **To be developed** (prompt engineering principles)
   - Study: Clear task definition principles
   - Practice: Basic prompt structure
 
@@ -373,7 +373,7 @@ Note: Paths below are relative to the repository root.
   - Test: Template effectiveness
 
 - Day 69 — Model Comparison I
-  - Read: `docs/archived/concepts/language-models.md`, "Popular Models"
+  - Read: **To be developed** (popular language models overview)
   - Study: Model characteristics and trade-offs
   - Do: Pick model for your use case
 
@@ -385,7 +385,7 @@ Note: Paths below are relative to the repository root.
 ## Week 15 — AI Agents Introduction (Days 71–75)
 
 - Day 71 — AI Agents Overview I
-  - Read: `docs/archived/concepts/ai-agents.md` (introduction)
+  - Read: **To be developed** (AI agents introduction)
   - Study: Agents vs chatbots distinction
   - Do: List 3 key differences
 
@@ -422,7 +422,7 @@ Note: Paths below are relative to the repository root.
   - Design: Plan action components
 
 - Day 78 — ReAct Architecture I
-  - Read: same file (ReAct) + `docs/archived/concepts/agentic-ai-patterns.md` (ReAct)
+  - Read: **To be developed** (ReAct pattern)
   - Study: Reasoning + Acting cycles
   - Do: Outline 4-loop ReAct cycle
 
@@ -432,7 +432,7 @@ Note: Paths below are relative to the repository root.
   - Practice: ReAct for research tasks
 
 - Day 80 — Plan-and-Execute I
-  - Read: `docs/archived/concepts/agentic-ai-patterns.md` (Plan-and-Execute)
+  - Read: **To be developed** (Plan-and-Execute pattern)
   - Study: Planning-based agent architecture
   - Do: Draft 5-step plan for complex task
 
@@ -444,7 +444,7 @@ Note: Paths below are relative to the repository root.
   - Practice: Multi-step task planning
 
 - Day 82 — Reflexion I
-  - Read: `docs/archived/concepts/agentic-ai-patterns.md` (Reflexion)
+  - Read: **To be developed** (Reflexion pattern)
   - Study: Self-reflection in agents
   - Do: Design reflection workflow
 
@@ -466,7 +466,7 @@ Note: Paths below are relative to the repository root.
 ## Week 18 — Implementation and Deployment (Days 86–90)
 
 - Day 86 — Agent Implementation I
-  - Read: `docs/archived/concepts/agentic-ai-patterns.md`, "Design Principles"
+  - Read: **To be developed** (design principles for AI agents)
   - Study: Modular agent architecture
   - Do: Sketch agent components
 
@@ -481,7 +481,7 @@ Note: Paths below are relative to the repository root.
   - Design: Safety and guardrails
 
 - Day 89 — Integration Testing
-  - Read: `docs/archived/tutorials/genai-to-agents.md`
+  - Read: **To be developed** (GenAI to agents tutorial)
   - Practice: End-to-end system testing
   - Validate: Agent behavior verification
 
@@ -496,30 +496,26 @@ Note: Paths below are relative to the repository root.
 
 ### Weeks 1-2: Foundation
 
-- `docs/archived/concepts/generative-ai-fundamentals.md`
-- `docs/archived/day1/01_generative_ai_foundations.ipynb`
+- `docs/daily-guides/week01/` (complete Week 1 materials)
+- `notebooks/weekly/week01/` (interactive practice notebooks)
 - `src/a1/` (basic examples)
 
 ### Weeks 3-4: Core Technologies
 
-- `docs/archived/concepts/tokenization-fundamentals.md`
-- `docs/archived/concepts/embeddings-fundamentals.md`
-- `docs/archived/tutorials/day3-tokenization-workshop.md`
-- `docs/archived/tutorials/day4-embeddings-workshop.md`
+- **To be developed** (tokenization and embeddings materials)
 - `src/a2/` and `src/a3/` (hands-on labs)
-- `docs/archived/day4/04_embeddings_discovery_laboratory.ipynb`
 
 ### Weeks 5-7: Language Models
 
-- `docs/archived/concepts/language-models.md`
-- `docs/archived/reference/tokenization-reference.md`
+- **To be developed** (language models concepts)
+- **To be developed** (tokenization reference)
 
 ### Weeks 8-12: AI Agents
 
-- `docs/archived/concepts/ai-agents.md`
-- `docs/archived/concepts/agentic-ai-patterns.md`
-- `docs/archived/reference/agent-api-reference.md`
-- `docs/archived/tutorials/genai-to-agents.md`
+- **To be developed** (AI agents concepts)
+- **To be developed** (agentic AI patterns)
+- **To be developed** (agent API reference)
+- **To be developed** (GenAI to agents tutorial)
 
 ## Daily Learning Tips
 
