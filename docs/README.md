@@ -60,6 +60,10 @@ Quick-access resources for development and troubleshooting:
 
 **[90-Day Comprehensive Learning Path](learning-path-90-days.md)** - Our complete systematic journey through generative AI mastery, from foundations to production-ready AI agents
 
+### Daily Practice Support
+
+**[Daily Learning Guides](daily-guides/)** - Structured 30-minute daily sessions with reading focus, hands-on practice, and reflection prompts
+
 ### Alternative Learning Approaches
 
 **[Legacy Learning Paths](archived/)** - Previous 30-day and 45-day versions (archived for reference)
