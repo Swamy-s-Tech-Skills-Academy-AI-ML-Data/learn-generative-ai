@@ -68,6 +68,10 @@ Quick-access resources for development and troubleshooting:
 
 **[Legacy Learning Paths](archived/)** - Previous 30-day and 45-day versions (archived for reference)
 
+### Background Materials
+
+**[Core Concepts](archived/concepts/)** - Theoretical foundations and detailed explanations (available when needed)
+
 ### Quick Start Exploration (New to AI)
 
 1. [Generative AI Fundamentals](concepts/generative-ai-fundamentals.md) - Build essential vocabulary

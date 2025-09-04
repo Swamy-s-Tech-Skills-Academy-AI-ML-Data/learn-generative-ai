@@ -2,7 +2,7 @@
 
 ## 📖 Reading Focus (10 minutes)
 
-**Primary Source**: [`docs/concepts/generative-ai-fundamentals.md`](../concepts/generative-ai-fundamentals.md)
+**Primary Source**: [`do../archived/concepts/generative-ai-fundamentals.md`](../archived/concepts/generative-ai-fundamentals.md)
 
 - **Focus sections**: "Mathematical Foundation" (probability section only)
 - **Goal**: Understand probability's role in language modeling
@@ -60,7 +60,7 @@ By the end of Day 4, you should be able to:
 ## 🔗 Quick Links
 
 - **Previous Day**: [Day 3 - Key Components](day03-key-components.md)
-- **Main Concept**: [Generative AI Fundamentals](../concepts/generative-ai-fundamentals.md)
+- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
 - **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
 - **Next Day**: [Day 5 - Loss Functions](day05-loss-functions.md)
 

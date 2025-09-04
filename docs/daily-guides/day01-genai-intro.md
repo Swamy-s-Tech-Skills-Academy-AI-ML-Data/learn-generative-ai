@@ -2,7 +2,7 @@
 
 ## 📖 Reading Focus (10 minutes)
 
-**Primary Source**: [`do../archived/concepts/generative-ai-fundamentals.md`](../archived/concepts/generative-ai-fundamentals.md)
+**Primary Source**: [`do../archiv../archived/concepts/generative-ai-fundamentals.md`](../archiv../archived/concepts/generative-ai-fundamentals.md)
 
 - **Focus sections**: Introduction + Key Characteristics
 - **Goal**: Understand what makes AI "generative" vs other AI types
@@ -58,7 +58,7 @@ By the end of Day 1, you should be able to:
 
 ## 🔗 Quick Links
 
-- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
+- **Main Concept**: [Generative AI Fundamentals](../archiv../archived/concepts/generative-ai-fundamentals.md)
 - **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
 - **Next Day**: [Day 2 - How GenAI Works](day02-genai-overview.md)
 

@@ -2,7 +2,7 @@
 
 ## 📖 Reading Focus (10 minutes)
 
-**Primary Source**: [`docs/concepts/generative-ai-fundamentals.md`](../concepts/generative-ai-fundamentals.md)
+**Primary Source**: [`do../archived/concepts/generative-ai-fundamentals.md`](../archived/concepts/generative-ai-fundamentals.md)
 
 - **Focus sections**: "How Generative AI Works" (first half)
 - **Goal**: Understand the high-level training concept
@@ -60,7 +60,7 @@ By the end of Day 2, you should be able to:
 ## 🔗 Quick Links
 
 - **Previous Day**: [Day 1 - GenAI Introduction](day01-genai-intro.md)
-- **Main Concept**: [Generative AI Fundamentals](../concepts/generative-ai-fundamentals.md)
+- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
 - **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
 - **Additional Exploration**: [Foundation Notebook](../../notebooks/day1/01_generative_ai_foundations.ipynb)
 - **Next Day**: [Day 3 - Key Components](day03-key-components.md)

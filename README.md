@@ -52,7 +52,6 @@ learn-generative-ai/
 │   └── ...                # Day-specific interactive explorations
 ├── docs/                  # Systematic curriculum and reference materials
 │   ├── daily-guides/      # 30-min structured daily learning sessions
-│   ├── concepts/          # Core AI concepts with original explanations
 │   ├── learning-path-90-days.md  # Complete structured curriculum
 │   └── archived/          # Previous versions and reference materials
 ├── .github/               # Development methodologies and prompt collections

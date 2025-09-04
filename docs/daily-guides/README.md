@@ -28,7 +28,7 @@ Each daily guide follows this optimized format:
 
 ### Concept References
 
-- **[Generative AI Fundamentals](../concepts/generative-ai-fundamentals.md)**: Core theoretical foundation
+- **[Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)**: Core theoretical foundation
 - **[Foundation Notebook](../notebooks/day1/01_generative_ai_foundations.ipynb)**: Additional exploration
 
 ### Code Examples

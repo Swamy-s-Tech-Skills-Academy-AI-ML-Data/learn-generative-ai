@@ -2,7 +2,7 @@
 
 ## 📖 Reading Focus (10 minutes)
 
-**Primary Source**: [`docs/concepts/generative-ai-fundamentals.md`](../concepts/generative-ai-fundamentals.md)
+**Primary Source**: [`do../archived/concepts/generative-ai-fundamentals.md`](../archived/concepts/generative-ai-fundamentals.md)
 
 - **Focus sections**: "Mathematical Foundation" (loss functions)
 - **Goal**: Understand what language modeling loss optimizes
@@ -69,7 +69,7 @@ Congratulations! You've completed Week 1. You now understand:
 ## 🔗 Quick Links
 
 - **Previous Day**: [Day 4 - Probability Basics](day04-probability-basics.md)
-- **Main Concept**: [Generative AI Fundamentals](../concepts/generative-ai-fundamentals.md)
+- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
 - **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
 - **Code Practice**: [Hello World Example](../../src/a1/helloworld.py)
 - **Next Week**: Week 2 - Generative AI Deep Dive
