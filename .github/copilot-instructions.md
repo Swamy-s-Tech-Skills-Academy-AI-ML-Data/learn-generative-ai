@@ -233,6 +233,15 @@ Our configuration presumes:
 - Supply debugging scenarios that cultivate troubleshooting expertise
 - Generate evaluation questions that examine application versus memorization
 
+### Single README Enforcement
+
+**CRITICAL RULE: Only ONE README.md file exists at root level.**
+
+- **No subfolder README files**: Never create README.md in any subdirectory
+- **Consolidated navigation**: All links, explanations, and guidance in root README.md only
+- **Zero exceptions**: Do not create README files without explicit user permission
+- **Active prevention**: If tempted to create documentation files, add content to root README.md instead
+
 ### Milestone Validation Checkpoints
 
 Establish verification points that confirm conceptual mastery:
@@ -501,12 +510,40 @@ def test_embedding_similarity_educational():
 - Create exercises that encourage active engagement with concepts
 - Maintain connections between theoretical knowledge and practical application
 
+### Single README Policy (Critical)
+
+**NEVER create additional README.md files unless explicitly requested by the user.**
+
+- **One README.md only**: Root level README.md contains ALL navigation and project information
+- **No folder README files**: Do not create README.md in subdirectories (docs/, src/, notebooks/, etc.)
+- **No duplicate documentation**: All information goes in the single root README.md
+- **Explicit permission required**: Only create additional README files when user explicitly requests it
+- **Consolidation priority**: If multiple README files exist, offer to merge them into the root README.md
+
 ### Testing Philosophy
 
 - Write tests that verify both correctness and educational value
 - Include failure cases that demonstrate important edge conditions
 - Design validation that helps learners understand success criteria
 - Create examples that show both expected and unexpected behavior
+
+### Single README Compliance Framework
+
+**ABSOLUTE RULE: One README.md file only - at repository root level.**
+
+Before creating ANY documentation file, verify:
+
+✅ **No README Creation**: Never create README.md in subdirectories  
+✅ **Root Consolidation**: All documentation goes in root README.md  
+✅ **User Permission**: Only create additional README files when explicitly requested  
+✅ **Active Monitoring**: If multiple README files exist, immediately consolidate into root  
+✅ **Content Integration**: Add any needed documentation to existing root README.md instead
+
+**Violation Prevention:**
+
+- Never create docs/README.md, src/README.md, notebooks/README.md, or any subfolder README
+- Always enhance the single root README.md instead of creating new documentation files
+- Treat creation of additional README files as a critical error requiring immediate correction
 
 ## Specialized AI Learning Support
 
