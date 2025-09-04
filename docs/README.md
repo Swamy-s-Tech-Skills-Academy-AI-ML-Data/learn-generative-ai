@@ -75,8 +75,9 @@ Quick-access resources for development and troubleshooting:
 ### Original Content Guarantee
 
 - **Zero-Copy Methodology**: All explanations crafted from first principles
-- **Unique Examples**: Custom implementations designed for clarity
+- **Unique Examples**: Custom implementations designed for clarity  
 - **Educational Focus**: Content optimized for learning rather than production
+- **Quality Assurance**: See [Copilot Instructions](../.github/copilot-instructions.md) for comprehensive zero-copy policy and implementation guidelines
 
 ### Discovery Support Tools
 
