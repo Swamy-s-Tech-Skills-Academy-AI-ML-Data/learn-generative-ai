@@ -58,7 +58,7 @@ Quick-access resources for development and troubleshooting:
 
 ### Primary Curriculum
 
-**[60-Day Comprehensive Learning Path](learning-path-60-days.md)** - Our complete systematic journey through generative AI mastery, from foundations to production-ready AI agents
+**[90-Day Comprehensive Learning Path](learning-path-90-days.md)** - Our complete systematic journey through generative AI mastery, from foundations to production-ready AI agents
 
 ### Alternative Learning Approaches
 
@@ -106,4 +106,4 @@ Every piece of documentation in this ecosystem:
 - Provides troubleshooting guidance that teaches debugging skills
 - Maintains consistency with our 45-day learning progression
 
-**Ready to explore?** Begin your systematic discovery with [Day 1 foundations](learning-path-60-days.md#week-1--generative-ai-foundations-days-15) or dive into any concept that sparks your curiosity!
+**Ready to explore?** Begin your systematic discovery with [Day 1 foundations](learning-path-90-days.md#week-1--generative-ai-introduction-days-15) or dive into any concept that sparks your curiosity!

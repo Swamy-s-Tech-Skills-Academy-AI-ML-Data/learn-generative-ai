@@ -20,7 +20,7 @@ This directory contains previous versions of our learning paths for reference an
 
 ## Current Recommendation
 
-Please use the **[60-Day Comprehensive Learning Path](../learning-path-60-days.md)** for the most complete and up-to-date learning experience.
+Please use the **[90-Day Comprehensive Learning Path](../learning-path-90-days.md)** for the most complete and up-to-date learning experience.
 
 ## Archive Purpose
 

@@ -100,7 +100,7 @@ python src/day1/basic_concepts.py
 
    ```powershell
    # View today's focus
-   type docs\learning-path-60-days.md | Select-String "Day X"
+   type docs\learning-path-90-days.md | Select-String "Day X"
    ```
 
 3. **Execute Today's Code**: Run the day's exploration script
@@ -301,7 +301,7 @@ Your systematic AI discovery journey starts now:
 
 1. **Complete the setup** following this guide
 2. **Start Day 1** with [basic concepts](src/day1/basic_concepts.py)
-3. **Follow the learning path** in [our 60-day comprehensive curriculum](docs/learning-path-60-days.md)
+3. **Follow the learning path** in [our 90-day comprehensive curriculum](docs/learning-path-90-days.md)
 4. **Engage with the community** by sharing your discoveries
 
 **Welcome to your AI mastery journey!** 🚀

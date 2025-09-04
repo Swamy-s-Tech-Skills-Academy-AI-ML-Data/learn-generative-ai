@@ -54,7 +54,7 @@ learn-generative-ai/
 │   ├── concepts/          # Core AI concepts with original explanations
 │   ├── tutorials/         # Step-by-step discovery guides
 │   ├── reference/         # API references and technical details
-│   └── learning-path-60-days.md  # Complete structured curriculum
+│   └── learning-path-90-days.md  # Complete structured curriculum
 ├── .github/               # Development methodologies and prompt collections
 │   └── prompts/           # Curated templates for enhanced Copilot interaction
 └── requirements.txt       # Pinned dependencies for reproducible environment
@@ -150,7 +150,7 @@ MIT License - Use freely for learning and teaching, maintaining the spirit of or
 
 If this systematic approach helps you master generative AI concepts, please star the repository! ⭐
 
-**Ready to begin your discovery?** → [Start Day 1](docs/learning-path-60-days.md#week-1--generative-ai-foundations-days-15)
+**Ready to begin your discovery?** → [Start Day 1](docs/learning-path-90-days.md#week-1--generative-ai-introduction-days-15)
 
 ---
 
