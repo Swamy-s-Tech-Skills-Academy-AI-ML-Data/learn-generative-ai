@@ -325,4 +325,13 @@ def optimize_text_for_tokenization(text: str) -> str:
 
 ---
 
+## 🔗 Advanced References
+
+For deeper exploration of tokenization intelligence:
+
+- **[BPE Intelligence Reference](bpe-intelligence-reference.md)** - Comprehensive guide to BPE's morphological pattern recognition and optimization strategies
+- **[Agent API Reference](agent-api-reference.md)** - API documentation for agentic AI implementations
+
+---
+
 *This reference guide provides practical, actionable information for applying tokenization knowledge in real-world AI development scenarios. All examples follow our zero-copy methodology with original implementations designed for educational clarity.*
