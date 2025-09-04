@@ -12,6 +12,11 @@
         "shell": "pwsh",
         "domain": "generative-ai-education",
         "learningPath": "docs/learning-path-90-days.md",
+        "duration": "18 weeks (90 days, 5 days/week)",
+        "completionStatus": {
+            "week01": "complete",
+            "week02-18": "to-be-developed"
+        },
         "currentStructure": {
             "activeLearning": {
                 "dailyGuides": "docs/daily-guides/",
@@ -56,7 +61,10 @@
         "codeStyle": "educational",
         "documentation": "verbose",
         "errorHandling": "explanatory",
-        "testing": "example-driven"
+        "testing": "example-driven",
+        "learningFocus": "build-understanding-through-implementation",
+        "namingConventions": "descriptive-educational",
+        "commentStyle": "concept-explaining"
     },
     "ai": {
         "concepts": [
@@ -86,12 +94,19 @@
             "progressiveComplexity": "build concepts incrementally",
             "interactiveLearning": "hands-on exploration functions",
             "zeroCopyPolicy": "all content completely original"
+        },
+        "qualityAssurance": {
+            "contentOriginality": "verify zero-copy compliance",
+            "educationalValue": "prioritize learning over complexity",
+            "structuralIntegrity": "maintain 1:1 guide-notebook mapping",
+            "selfContainment": "no external content dependencies"
         }
     },
     "prompts": {
         "templatePath": ".github/prompts",
         "categories": [
             "code-explanation",
+            "content-creation",
             "learning-path",
             "project-development",
             "research-exploration",

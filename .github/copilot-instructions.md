@@ -67,7 +67,7 @@ Before creating any content, ensure:
 
 ## Our Discovery Charter
 
-This workspace orchestrates a 9-week expedition through generative AI fundamentals, architected for active exploration rather than passive absorption. Every piece of code, documentation, and interaction should advance the mission of profound conceptual comprehension.
+This workspace orchestrates an 18-week expedition through generative AI fundamentals (90 days, 5 days/week), architected for active exploration rather than passive absorption. Every piece of code, documentation, and interaction should advance the mission of profound conceptual comprehension.
 
 ### Learning Methodology
 

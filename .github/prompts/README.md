@@ -15,6 +15,14 @@ This folder contains curated prompt templates designed specifically for the lear
 - Tokenization implementation breakdown
 - Embedding analysis and intuition
 - Agent pattern understanding
+- Interactive exploration functions
+
+### 🎨 Content Creation (`content-creation.md`)
+
+- Original educational content development
+- Interactive learning function design
+- Zero-copy compliant examples
+- Self-contained daily guide creation
 
 ### 🛠️ Project Development (`project-development.md`)
 
