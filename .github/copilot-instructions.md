@@ -80,10 +80,20 @@ This workspace orchestrates a 9-week expedition through generative AI fundamenta
 
 Our discovery environment organizes learning into specialized zones:
 
+#### Primary Learning Structure (Single Source of Truth):
+
+- `docs/daily-guides/` contains daily learning guides organized by weeks (theory and concepts)
+- `notebooks/weekly/` delivers interactive practice notebooks with 1:1 mapping to daily guides
+- `docs/archived/` serves as active resource pool for content migration and reuse
+
+#### Supporting Infrastructure:
+
 - `src/` houses functional implementations that illuminate concepts transparently
-- `notebooks/` delivers interactive investigation environments for experimentation
-- `docs/` contains our systematic curriculum and reference materials
 - `.github/` preserves development methodologies and prompt collections
+
+#### Content Management Strategy:
+
+**Archive as Active Resource Pool**: When creating new daily content, always check archived materials first. If suitable content exists, migrate and adapt it to the specific day's learning objectives, then modify or remove the archived version to prevent duplication. This ensures efficient content reuse while maintaining single source of truth for each concept.
 
 ## Code Crafting Protocols
 
@@ -232,6 +242,32 @@ Our configuration presumes:
 - Propose hands-on exercises that strengthen theoretical comprehension
 - Supply debugging scenarios that cultivate troubleshooting expertise
 - Generate evaluation questions that examine application versus memorization
+
+### Content Migration and Reuse Strategy
+
+**CRITICAL WORKFLOW: Archive as Active Resource Pool**
+
+When creating daily content for `docs/daily-guides/` or `notebooks/weekly/`:
+
+1. **Check archived materials first**: Search `docs/archived/` for relevant existing content
+2. **Migrate suitable content**: Move/adapt archived materials to appropriate daily guide or notebook
+3. **Modify archived files**: Update or remove original archived content to prevent duplication
+4. **Maintain single source of truth**: Each concept exists in only one primary location
+5. **Create fresh content only**: When archived materials don't fit the day's learning objectives
+
+**Archive Content Types Available:**
+
+- `docs/archived/concepts/` - Foundational AI concept explanations
+- `docs/archived/tutorials/` - Workshop-style learning materials
+- `docs/archived/reference/` - Technical documentation and API guides
+- `docs/archived/day1/`, `docs/archived/day4/` - Legacy daily materials
+- Individual notebooks and guides for potential reuse
+
+**Migration Examples:**
+
+- Day 8 tokenization → Check `docs/archived/tutorials/day3-tokenization-workshop.md`
+- Day 12 embeddings → Check `docs/archived/concepts/embeddings-fundamentals.md`
+- Advanced concepts → Check `docs/archived/concepts/` and `docs/archived/reference/`
 
 ### Single README Enforcement
 
