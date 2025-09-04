@@ -7,7 +7,7 @@ Note: Paths below are relative to the repository root.
 ## Week 1 — Generative AI Introduction (Days 1–5)
 
 - Day 1 — What is Generative AI
-  - Read: `docs/concepts/generative-ai-fundamentals.md` (intro + key characteristics)
+  - Read: `docs/archived/concepts/generative-ai-fundamentals.md` (intro + key characteristics)
   - Do: Write 3 concrete outputs you want GenAI to produce in your domain.
   - Reflect: 10 minutes on potential applications
 
@@ -61,7 +61,7 @@ Note: Paths below are relative to the repository root.
 ## Week 3 — Language Models Foundations (Days 11–15)
 
 - Day 11 — Language Models Evolution I
-  - Read: `docs/concepts/language-models.md` (statistical era)
+  - Read: `docs/archived/concepts/language-models.md` (statistical era)
   - Do: Understand n-gram limitations
   - Study: Historical progression of language modeling
 
@@ -71,29 +71,29 @@ Note: Paths below are relative to the repository root.
   - Visualize: Study transformer architecture diagrams
 
 - Day 13 — Tokenization Introduction
-  - Read: `docs/concepts/tokenization-fundamentals.md` (introduction)
+  - Read: `docs/archived/concepts/tokenization-fundamentals.md` (introduction)
   - Do: Understand why tokenization is needed
   - Practice: Basic text splitting examples
 
 - Day 14 — Embeddings Introduction
-  - Read: `docs/concepts/embeddings-fundamentals.md` (introduction + basic concepts)
+  - Read: `docs/archived/concepts/embeddings-fundamentals.md` (introduction + basic concepts)
   - Do: Explain how embeddings enable similarity
   - Concept: Understand discrete → continuous transformation
 
 - Day 15 — Transformer Blocks Overview
-  - Read: `docs/concepts/language-models.md`, "Transformer Blocks" (overview)
+  - Read: `docs/archived/concepts/language-models.md`, "Transformer Blocks" (overview)
   - Do: Sketch basic transformer components
   - Study: Attention + FFN + residuals overview
 
 ## Week 4 — Tokenization Fundamentals (Days 16–20)
 
 - Day 16 — Tokenization Concepts Deep Dive
-  - Read: `docs/concepts/tokenization-fundamentals.md` (complete)
-  - Workshop: Begin `docs/tutorials/day3-tokenization-workshop.md` (intro)
+  - Read: `docs/archived/concepts/tokenization-fundamentals.md` (complete)
+  - Workshop: Begin `docs/archived/tutorials/day3-tokenization-workshop.md` (intro)
   - Do: Understand subword tokenization benefits
 
 - Day 17 — BPE and Subword Tokenization I
-  - Read: `docs/reference/tokenization-reference.md` (BPE section)
+  - Read: `docs/archived/reference/tokenization-reference.md` (BPE section)
   - Workshop: Day 3 Workshop Experiment 1
   - Code: Basic tokenization with `src/a2/a1_countingtokens.py`
 
@@ -115,7 +115,7 @@ Note: Paths below are relative to the repository root.
 ## Week 5 — Advanced Tokenization (Days 21–25)
 
 - Day 21 — Morphological Analysis I
-  - Read: `docs/tutorials/bpe-morphological-discovery.md` (first half)
+  - Read: `docs/archived/tutorials/bpe-morphological-discovery.md` (first half)
   - Code: Explore `src/a2/a2_morphological_bpe.py`
   - Study: How BPE handles word formation
 
@@ -135,15 +135,15 @@ Note: Paths below are relative to the repository root.
   - Do: Document tokenizer choice impacts
 
 - Day 25 — Tokenization Best Practices
-  - Read: `docs/reference/tokenization-reference.md` (troubleshooting)
+  - Read: `docs/archived/reference/tokenization-reference.md` (troubleshooting)
   - Workshop: Complete Day 3 summary and reflection
   - Project: Design tokenization strategy for custom application
 
 ## Week 6 — Embeddings Fundamentals (Days 26–30)
 
 - Day 26 — Embeddings Concepts Deep Dive
-  - Read: `docs/concepts/embeddings-fundamentals.md` (complete review)
-  - Workshop: Begin `docs/tutorials/day4-embeddings-workshop.md`
+  - Read: `docs/archived/concepts/embeddings-fundamentals.md` (complete review)
+  - Workshop: Begin `docs/archived/tutorials/day4-embeddings-workshop.md`
   - Understand: Vector space properties
 
 - Day 27 — Embedding Generation I
@@ -223,7 +223,7 @@ Note: Paths below are relative to the repository root.
 ## Week 9 — Attention Mechanisms (Days 41–45)
 
 - Day 41 — Attention Fundamentals
-  - Read: `docs/concepts/language-models.md`, "Attention Mechanism"
+  - Read: `docs/archived/concepts/language-models.md`, "Attention Mechanism"
   - Do: Summarize self-attention in your own words
   - Study: Attention as weighted averaging
 
@@ -250,7 +250,7 @@ Note: Paths below are relative to the repository root.
 ## Week 10 — Context and Efficiency (Days 46–50)
 
 - Day 46 — Context Window Fundamentals
-  - Read: `docs/concepts/language-models.md`, "Context Window"
+  - Read: `docs/archived/concepts/language-models.md`, "Context Window"
   - Do: Understand context limitations
   - Study: Memory and computational constraints
 
@@ -277,7 +277,7 @@ Note: Paths below are relative to the repository root.
 ## Week 11 — Training and Model Types (Days 51–55)
 
 - Day 51 — Training Process I: Data Collection
-  - Read: `docs/concepts/language-models.md`, "Training Process" (data)
+  - Read: `docs/archived/concepts/language-models.md`, "Training Process" (data)
   - Study: Data collection strategies
   - Do: List 3 data quality risks
 
@@ -304,7 +304,7 @@ Note: Paths below are relative to the repository root.
 ## Week 12 — Model Families and Evaluation (Days 56–60)
 
 - Day 56 — Model Families I: GPT
-  - Read: `docs/concepts/language-models.md`, "Types" (GPT)
+  - Read: `docs/archived/concepts/language-models.md`, "Types" (GPT)
   - Study: Decoder-only architecture
   - Do: Identify GPT use cases
 
@@ -331,7 +331,7 @@ Note: Paths below are relative to the repository root.
 ## Week 13 — Prompting Fundamentals (Days 61–65)
 
 - Day 61 — Prompt Engineering Basics I
-  - Read: `docs/concepts/language-models.md`, "Prompt Engineering" (principles)
+  - Read: `docs/archived/concepts/language-models.md`, "Prompt Engineering" (principles)
   - Study: Clear task definition principles
   - Practice: Basic prompt structure
 
@@ -373,7 +373,7 @@ Note: Paths below are relative to the repository root.
   - Test: Template effectiveness
 
 - Day 69 — Model Comparison I
-  - Read: `docs/concepts/language-models.md`, "Popular Models"
+  - Read: `docs/archived/concepts/language-models.md`, "Popular Models"
   - Study: Model characteristics and trade-offs
   - Do: Pick model for your use case
 
@@ -385,7 +385,7 @@ Note: Paths below are relative to the repository root.
 ## Week 15 — AI Agents Introduction (Days 71–75)
 
 - Day 71 — AI Agents Overview I
-  - Read: `docs/concepts/ai-agents.md` (introduction)
+  - Read: `docs/archived/concepts/ai-agents.md` (introduction)
   - Study: Agents vs chatbots distinction
   - Do: List 3 key differences
 
@@ -422,7 +422,7 @@ Note: Paths below are relative to the repository root.
   - Design: Plan action components
 
 - Day 78 — ReAct Architecture I
-  - Read: same file (ReAct) + `docs/concepts/agentic-ai-patterns.md` (ReAct)
+  - Read: same file (ReAct) + `docs/archived/concepts/agentic-ai-patterns.md` (ReAct)
   - Study: Reasoning + Acting cycles
   - Do: Outline 4-loop ReAct cycle
 
@@ -432,7 +432,7 @@ Note: Paths below are relative to the repository root.
   - Practice: ReAct for research tasks
 
 - Day 80 — Plan-and-Execute I
-  - Read: `docs/concepts/agentic-ai-patterns.md` (Plan-and-Execute)
+  - Read: `docs/archived/concepts/agentic-ai-patterns.md` (Plan-and-Execute)
   - Study: Planning-based agent architecture
   - Do: Draft 5-step plan for complex task
 
@@ -444,7 +444,7 @@ Note: Paths below are relative to the repository root.
   - Practice: Multi-step task planning
 
 - Day 82 — Reflexion I
-  - Read: `docs/concepts/agentic-ai-patterns.md` (Reflexion)
+  - Read: `docs/archived/concepts/agentic-ai-patterns.md` (Reflexion)
   - Study: Self-reflection in agents
   - Do: Design reflection workflow
 
@@ -466,7 +466,7 @@ Note: Paths below are relative to the repository root.
 ## Week 18 — Implementation and Deployment (Days 86–90)
 
 - Day 86 — Agent Implementation I
-  - Read: `docs/concepts/agentic-ai-patterns.md`, "Design Principles"
+  - Read: `docs/archived/concepts/agentic-ai-patterns.md`, "Design Principles"
   - Study: Modular agent architecture
   - Do: Sketch agent components
 
@@ -481,7 +481,7 @@ Note: Paths below are relative to the repository root.
   - Design: Safety and guardrails
 
 - Day 89 — Integration Testing
-  - Read: `docs/tutorials/genai-to-agents.md`
+  - Read: `docs/archived/tutorials/genai-to-agents.md`
   - Practice: End-to-end system testing
   - Validate: Agent behavior verification
 
@@ -496,30 +496,30 @@ Note: Paths below are relative to the repository root.
 
 ### Weeks 1-2: Foundation
 
-- `docs/concepts/generative-ai-fundamentals.md`
+- `docs/archived/concepts/generative-ai-fundamentals.md`
 - `notebooks/day1/01_generative_ai_foundations.ipynb`
 - `src/a1/` (basic examples)
 
 ### Weeks 3-4: Core Technologies
 
-- `docs/concepts/tokenization-fundamentals.md`
-- `docs/concepts/embeddings-fundamentals.md`
-- `docs/tutorials/day3-tokenization-workshop.md`
-- `docs/tutorials/day4-embeddings-workshop.md`
+- `docs/archived/concepts/tokenization-fundamentals.md`
+- `docs/archived/concepts/embeddings-fundamentals.md`
+- `docs/archived/tutorials/day3-tokenization-workshop.md`
+- `docs/archived/tutorials/day4-embeddings-workshop.md`
 - `src/a2/` and `src/a3/` (hands-on labs)
 - `notebooks/day4/04_embeddings_discovery_laboratory.ipynb`
 
 ### Weeks 5-7: Language Models
 
-- `docs/concepts/language-models.md`
-- `docs/reference/tokenization-reference.md`
+- `docs/archived/concepts/language-models.md`
+- `docs/archived/reference/tokenization-reference.md`
 
 ### Weeks 8-12: AI Agents
 
-- `docs/concepts/ai-agents.md`
-- `docs/concepts/agentic-ai-patterns.md`
-- `docs/reference/agent-api-reference.md`
-- `docs/tutorials/genai-to-agents.md`
+- `docs/archived/concepts/ai-agents.md`
+- `docs/archived/concepts/agentic-ai-patterns.md`
+- `docs/archived/reference/agent-api-reference.md`
+- `docs/archived/tutorials/genai-to-agents.md`
 
 ## Daily Learning Tips
 

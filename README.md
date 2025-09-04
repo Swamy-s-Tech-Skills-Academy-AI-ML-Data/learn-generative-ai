@@ -51,10 +51,10 @@ learn-generative-ai/
 │   ├── day4/              # Embeddings discovery laboratory
 │   └── ...                # Day-specific interactive explorations
 ├── docs/                  # Systematic curriculum and reference materials
+│   ├── daily-guides/      # 30-min structured daily learning sessions
 │   ├── concepts/          # Core AI concepts with original explanations
-│   ├── tutorials/         # Step-by-step discovery guides
-│   ├── reference/         # API references and technical details
-│   └── learning-path-90-days.md  # Complete structured curriculum
+│   ├── learning-path-90-days.md  # Complete structured curriculum
+│   └── archived/          # Previous versions and reference materials
 ├── .github/               # Development methodologies and prompt collections
 │   └── prompts/           # Curated templates for enhanced Copilot interaction
 └── requirements.txt       # Pinned dependencies for reproducible environment
