@@ -1,38 +1,38 @@
-# Copilot Guidelines for AI Learning Journey
+# Copilot Blueprint for AI Discovery Workshop
 
-Welcome to our generative AI learning workspace! This file helps GitHub Copilot understand our unique educational approach and provide assistance tailored to structured AI concept mastery.
+Welcome to our generative AI discovery workspace! This blueprint helps GitHub Copilot understand our distinctive learning methodology and provide assistance calibrated to systematic AI concept mastery.
 
-## Our Learning Mission
+## Our Discovery Charter
 
-This workspace supports a 9-week journey through generative AI fundamentals, designed for hands-on discovery rather than passive consumption. Every piece of code, documentation, and interaction should serve the goal of deep conceptual understanding.
+This workspace orchestrates a 9-week expedition through generative AI fundamentals, architected for active exploration rather than passive absorption. Every piece of code, documentation, and interaction should advance the mission of profound conceptual comprehension.
 
-### Educational Philosophy
-- **Learning by Building**: Construct understanding through progressive implementation
-- **Concept-First Development**: Every script teaches a specific AI principle
-- **Iterative Mastery**: Revisit concepts with increasing sophistication
-- **Real-World Application**: Connect theory to practical problems you might solve
+### Learning Methodology
+- **Discovery Through Construction**: Build understanding via incremental implementation
+- **Principle-Driven Coding**: Every script illuminates a specific AI foundation
+- **Spiral Mastery**: Revisit concepts with escalating sophistication
+- **Problem-Focused Learning**: Bridge theory to practical challenges you'll encounter
 
-### Repository Structure
-Our workspace organizes learning into distinct areas:
-- `src/` contains working implementations that demonstrate concepts clearly
-- `notebooks/` provides interactive exploration environments for experimentation  
-- `docs/` houses our structured curriculum and reference materials
-- `.github/` maintains development practices and prompt libraries
+### Workspace Organization
+Our discovery environment organizes learning into specialized zones:
+- `src/` houses functional implementations that illuminate concepts transparently
+- `notebooks/` delivers interactive investigation environments for experimentation  
+- `docs/` contains our systematic curriculum and reference materials
+- `.github/` preserves development methodologies and prompt collections
 
-## Code Creation Principles
+## Code Crafting Protocols
 
-### For Educational Clarity
-When generating code, prioritize understanding over optimization:
-- Write functions that reveal their internal logic through meaningful names
-- Include intermediate variables that show computational steps
-- Add print statements that help learners verify their mental models
-- Create examples that fail gracefully with instructive error messages
+### For Learning Transparency
+When generating code, prioritize comprehension over optimization:
+- Write functions that expose their internal logic through descriptive naming
+- Include intermediate variables that reveal computational progressions
+- Add verification statements that help learners validate their mental frameworks
+- Design examples that degrade gracefully with instructive failure messages
 
-### AI-Specific Implementation Patterns
-- **Token Processing**: Show vocabulary decisions, encoding choices, and boundary handling
-- **Vector Operations**: Demonstrate dimensionality effects and similarity interpretations  
-- **Model Architecture**: Break down layer interactions and information flow
-- **Agent Behavior**: Expose decision-making processes and state management
+### AI-Specialized Implementation Frameworks
+- **Token Analysis**: Reveal vocabulary strategies, encoding selections, and boundary management
+- **Vector Mathematics**: Showcase dimensionality impacts and similarity interpretations  
+- **Model Composition**: Decompose layer interactions and information pathways
+- **Agent Orchestration**: Unveil decision-making sequences and state transitions
 
 ### Custom Code Examples for Learning
 When writing educational code, create self-documenting implementations:
