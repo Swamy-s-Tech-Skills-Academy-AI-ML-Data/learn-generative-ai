@@ -51,6 +51,7 @@ learn-generative-ai/
 ├── README.md                  ← You are here - project overview
 ├── docs/
 │   ├── daily-guides/          ← START HERE - 30-minute daily sessions  
+│   │   └── week01/            ← Week 1: Days 1-5 guides
 │   ├── learning-path-90-days.md ← Complete curriculum overview
 │   └── archived/              ← Supporting materials (access when needed)
 ├── notebooks/                 ← Weekly hands-on practice
