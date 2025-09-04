@@ -138,6 +138,79 @@ learn-generative-ai/
 - **Thursday**: Practice + troubleshooting  
 - **Friday**: Review + connect concepts
 
+## 📅 Week 1: Your First 5 Days (Getting Started)
+
+### Daily Guide Structure
+
+Each day follows this optimized 30-minute format for maximum learning efficiency:
+
+- **📖 Reading Focus (10 minutes)**: Targeted concept study
+- **🔬 Notebook Practice (15 minutes)**: Interactive hands-on exercises  
+- **🤔 Reflection & Planning (5 minutes)**: Synthesis and preparation
+
+### Week 1 Schedule: Generative AI Introduction
+
+| Day | Topic | Focus | Key Skills |
+|-----|-------|-------|------------|
+| [Day 1](docs/daily-guides/week01/day01-genai-intro.md) | What is Generative AI | Fundamentals & characteristics | Define GenAI, identify applications |
+| [Day 2](docs/daily-guides/week01/day02-genai-overview.md) | How GenAI Works (Overview) | Training vs generation | Understand the two-phase process |
+| [Day 3](docs/daily-guides/week01/day03-key-components.md) | Key Components & Architecture | System building blocks | Map components, control quality |
+| [Day 4](docs/daily-guides/week01/day04-probability-basics.md) | Mathematical Foundations I | Probability basics | Explain probability in language modeling |
+| [Day 5](docs/daily-guides/week01/day05-loss-functions.md) | Mathematical Foundations II | Loss functions | Describe what loss optimizes |
+
+### Week 1 Supporting Materials
+
+**🔬 Interactive Practice:** [Week 1 Notebook](notebooks/weekly/week01/genai-exploration.ipynb) - Comprehensive hands-on exercises for all 5 days
+
+**📖 Reference Materials:** Access [archived concepts](docs/archived/concepts/) when you need deeper theoretical exploration
+
+**💻 Code Examples:** Explore [src/a1/](src/a1/) for basic concepts and hello world implementations
+
+### Learning Success Tips
+
+**Before Each Day:**
+
+- [ ] Review previous day's reflection notes
+- [ ] Have notebook and concept docs ready
+- [ ] Set timer for 30 minutes
+
+**During Learning:**
+
+- [ ] Follow the 10-15-5 minute structure
+- [ ] Take notes on key insights
+- [ ] Complete all interactive exercises
+- [ ] Focus on depth over speed
+
+**After Each Day:**
+
+- [ ] Update your learning journal
+- [ ] Identify 1-2 key takeaways
+- [ ] Note any questions for later
+- [ ] Prepare for tomorrow's focus
+
+### Week 1 Milestones
+
+After completing your first 5 days, you should be able to:
+
+- [ ] Day 1: Define generative AI clearly
+- [ ] Day 2: Understand training vs generation phases
+- [ ] Day 3: Map GenAI system components  
+- [ ] Day 4: Explain probability in text generation
+- [ ] Day 5: Connect loss functions to learning
+
+**🎯 Week 1 Success Criteria:** You can distinguish generative from discriminative AI, explain the complete GenAI workflow, identify quality control mechanisms, understand mathematical foundations, and design basic GenAI system architecture.
+
+## 🚀 Ready to Start Your AI Journey?
+
+**✨ Begin immediately:**
+
+1. **Environment Setup** (5 minutes): Run the PowerShell commands above
+2. **Start Day 1** (30 minutes): Go to [Day 1: What is Generative AI](docs/daily-guides/week01/day01-genai-intro.md)
+3. **Open Week 1 Notebook**: Launch [genai-exploration.ipynb](notebooks/weekly/week01/genai-exploration.ipynb)
+4. **Follow the 30-minute structure** and begin your systematic discovery
+
+**📋 Want the complete overview first?** Check [90-Day Learning Path](docs/learning-path-90-days.md)
+
 ## 🤝 Contributing to the Discovery
 
 This workspace thrives on collaborative learning! Contributions welcome:
