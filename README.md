@@ -1,28 +1,36 @@
-# Learn Generative AI: 60-Day Comprehensive Discovery Workshop
+# Learn Generative AI: 90-Day Systematic Discovery Workshop
 
-**Master Generative AI through systematic, hands-on exploration** - No textbook copying, just original learning experiences designed for deep conceptual understanding and production-ready skills.
+**Master Generative AI through systematic, hands-on exploration** - Original learning experiences designed for deep conceptual understanding and production-ready skills.
 
 ## 🌟 Our Learning Philosophy
 
-This workspace orchestrates a **60-day comprehensive expedition** through generative AI fundamentals to advanced agent development, architected for active exploration rather than passive absorption. Every piece of code, documentation, and interaction advances the mission of profound conceptual comprehension and practical mastery.
+This workspace orchestrates a **90-day comprehensive expedition** through generative AI fundamentals to advanced agent development, architected for active exploration rather than passive absorption. Every piece of code, documentation, and interaction advances the mission of profound conceptual comprehension and practical mastery.
 
-### Discovery-Driven Learning
+### Discovery-Driven Learning (30 Minutes Daily)
 
 - **Build Understanding Through Implementation**: Create working examples that illuminate concepts
 - **Progressive Skill Development**: Each day builds systematically on previous knowledge
 - **Original Content Only**: All materials crafted from first principles using our zero-copy methodology
 - **Concept Bridge Building**: Explicit connections between related AI topics
-- **Production Focus**: Learn through building real-world applications
+- **Accessible Learning**: 30-minute daily sessions (10 min reading + 15 min practice + 5 min reflection)
 
-### Comprehensive Progression (60 Days, 5 Days/Week)
+### Comprehensive Progression (90 Days, 5 Days/Week)
 
-- **Week 1-2**: Generative AI foundations and mathematical concepts
-- **Week 3-4**: Tokenization and embeddings deep dive with hands-on workshops
-- **Week 5-7**: Language models, attention mechanisms, and advanced architectures
-- **Week 8-10**: AI agents - from concepts to production implementation
-- **Week 11-12**: Advanced features, deployment, and capstone project
+- **Week 1-4**: Generative AI foundations, tokenization, and embeddings
+- **Week 5-8**: Language models, attention mechanisms, and advanced architectures  
+- **Week 9-12**: AI agents - from concepts to production implementation
+- **Week 13-16**: Advanced patterns, optimization, and real-world deployment
+- **Week 17-18**: Capstone projects and portfolio development
 
-## 🚀 Quick Start Your Discovery
+## 🚀 Start Your AI Discovery Journey
+
+**🎯 Your ultra-clean learning path:**
+
+1. **Read this overview** (you're here!)
+2. **Go to [daily-guides](docs/daily-guides/)** for structured 30-minute sessions
+3. **Follow Day 1** and begin your systematic exploration
+
+### Quick Environment Setup
 
 ```powershell
 # Clone the discovery workspace
@@ -33,124 +41,126 @@ cd learn-generative-ai
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
-# Begin Day 1 exploration
-python src/a1/basic_concepts.py
+# Begin Day 1 exploration - follow docs/daily-guides/day01-genai-intro.md
 ```
 
-## 📁 Discovery Workspace Organization
+## 📁 Ultra-Minimal Workspace Structure
 
 ```text
 learn-generative-ai/
-├── src/                    # Functional implementations that illuminate concepts
-│   ├── a1/                # Basic AI concepts and foundations
-│   ├── a2/                # Tokenization analysis and encoding  
-│   ├── a3/                # Embeddings and vector operations
-│   └── ...                # Progressive topic explorations
-├── notebooks/             # Interactive investigation environments
-│   ├── day1/              # Foundations Jupyter notebook
-│   ├── day4/              # Embeddings discovery laboratory
-│   └── ...                # Day-specific interactive explorations
-├── docs/                  # Systematic curriculum and reference materials
-│   ├── daily-guides/      # 30-min structured daily learning sessions
-│   ├── learning-path-90-days.md  # Complete structured curriculum
-│   └── archived/          # Previous versions and reference materials
-├── .github/               # Development methodologies and prompt collections
-│   └── prompts/           # Curated templates for enhanced Copilot interaction
-└── requirements.txt       # Pinned dependencies for reproducible environment
+├── README.md                  ← You are here - project overview
+├── docs/
+│   ├── daily-guides/          ← START HERE - 30-minute daily sessions  
+│   ├── learning-path-90-days.md ← Complete curriculum overview
+│   └── archived/              ← Supporting materials (access when needed)
+├── notebooks/                 ← Weekly hands-on practice
+│   └── weekly/week01/         ← Interactive coding exercises
+├── src/                       ← Working code examples
+│   ├── a1/ a2/ a3/           ← Topic-specific implementations
+└── requirements.txt          ← Environment dependencies
 ```
 
 ## 🛠️ Prerequisites for Discovery
 
 - **Python 3.12.5** (for optimal compatibility)
-- **Windows environment** with PowerShell
+- **Windows environment** with PowerShell  
 - **Git** for version control
-- **Curiosity** and willingness to experiment
-- **OpenAI API key** (for advanced examples)
+- **Curiosity** and 30 minutes daily commitment
+- **OpenAI API key** (for advanced examples - setup in Week 2)
 
-## 💡 Discovery Enhancement Tools
+## � Documentation & Learning Support
 
-### GitHub Copilot Integration
+### Your Learning Pathway
 
-Our workspace includes specialized configurations to enhance AI-assisted learning:
+**🎯 New to AI?** Start with [Daily Guides](docs/daily-guides/) - structured 30-minute sessions that build understanding systematically.
 
-- **Custom Prompts**: Curated templates in `.github/prompts/` for focused assistance
-- **Educational Patterns**: Copilot instructions optimized for learning rather than production
-- **Zero-Copy Policy**: All content is original, ensuring unique learning value
+**📋 Complete Overview?** See [90-Day Learning Path](docs/learning-path-90-days.md) for the full curriculum structure.
 
-### Learning Support Features
+**🔍 Need Background?** Access [archived concepts](docs/archived/concepts/) when you want deeper theoretical exploration.
 
-- **Progressive Complexity**: Each day builds systematically on previous concepts
-- **Hands-on Validation**: Every concept includes working code examples
-- **Interactive Checkpoints**: Self-assessment exercises throughout the journey
-- **Concept Bridging**: Explicit connections between related topics
+### Original Content Philosophy
 
-## 🗓️ Your 45-Day Learning Journey
+- **Zero-Copy Methodology**: All explanations crafted from first principles
+- **Unique Examples**: Custom implementations designed for clarity  
+- **Educational Focus**: Content optimized for learning rather than memorization
+- **Progressive Building**: Each concept builds systematically on previous knowledge
 
-### Week 1-2: Foundations (Days 1-10)
+### Discovery Enhancement Tools
 
-🎯 **Focus**: Understanding generative AI fundamentals, environment setup, basic API integration
+- **GitHub Copilot Integration**: Specialized configurations in `.github/` for AI-assisted learning
+- **Interactive Notebooks**: Hands-on validation of concepts through working code
+- **Self-Assessment Checkpoints**: Validate understanding throughout your journey
+- **Concept Bridging**: Explicit connections between related AI topics
 
-📚 **Key Concepts**: AI terminology, tokenization basics, simple text generation
+## 🗓️ Your 90-Day Learning Milestones
 
-🔧 **Practical Skills**: Python environment setup, OpenAI API usage, basic debugging
+### Week 1-4: Foundations & Core Concepts (Days 1-20)
 
-### Week 3-4: Language Models (Days 11-20)
+🎯 **Focus**: Generative AI fundamentals, tokenization mastery, embeddings discovery  
+📚 **Key Skills**: Environment setup, basic API usage, token analysis, vector operations  
+🏆 **Milestone**: Build a working semantic search system
 
-🎯 **Focus**: Deep dive into how language models process and generate text
+### Week 5-8: Language Models & Architectures (Days 21-40)
 
-📚 **Key Concepts**: Tokenization strategies, vocabulary management, encoding techniques
+🎯 **Focus**: Deep model understanding, attention mechanisms, prompt engineering  
+📚 **Key Skills**: Model selection, performance optimization, advanced prompting  
+🏆 **Milestone**: Create custom text generation applications
 
-🔧 **Practical Skills**: Token analysis, model selection, prompt engineering basics
+### Week 9-12: AI Agents & Intelligence (Days 41-60)
 
-### Week 5-6: Embeddings & Vectors (Days 21-30)
+🎯 **Focus**: Autonomous systems, reasoning patterns, tool integration  
+📚 **Key Skills**: Agent development, decision-making, multi-step workflows  
+🏆 **Milestone**: Deploy functional AI agent for real-world tasks
 
-🎯 **Focus**: Understanding meaning representation and similarity computation
+### Week 13-16: Advanced Patterns & Production (Days 61-80)
 
-📚 **Key Concepts**: Vector spaces, semantic similarity, dimensionality considerations
+🎯 **Focus**: System design, optimization, deployment strategies  
+📚 **Key Skills**: Performance tuning, monitoring, production deployment  
+🏆 **Milestone**: Production-ready AI system with monitoring
 
-🔧 **Practical Skills**: Embedding generation, similarity search, vector operations
+### Week 17-18: Capstone & Portfolio (Days 81-90)
 
-### Week 7-8: Advanced Architectures (Days 31-40)
+🎯 **Focus**: Project synthesis, portfolio development, future learning  
+📚 **Key Skills**: System integration, documentation, presentation  
+🏆 **Milestone**: Complete AI project showcasing your mastery
 
-🎯 **Focus**: Transformer architecture, attention mechanisms, model fine-tuning
+## 🎯 Daily Learning Structure (30 Minutes)
 
-📚 **Key Concepts**: Multi-head attention, positional encoding, transfer learning
+**🔥 Maximum efficiency for busy schedules:**
 
-🔧 **Practical Skills**: Model customization, performance optimization, evaluation metrics
+- **10 minutes**: Read daily guide (concepts + examples)
+- **15 minutes**: Hands-on notebook practice  
+- **5 minutes**: Reflection + plan next session
 
-### Week 9: AI Agents (Days 41-45)
+**📈 Weekly progression:**
 
-🎯 **Focus**: Building intelligent agents that can reason and take actions
-
-📚 **Key Concepts**: Agent patterns, tool usage, decision-making processes
-
-🔧 **Practical Skills**: Agent development, integration patterns, real-world applications
-
-## 🎯 Learning Milestones
-
-- **Day 15**: Successfully generate text with custom parameters
-- **Day 30**: Build a semantic search system using embeddings
-- **Day 45**: Deploy a functional AI agent for a practical task
+- **Monday-Wednesday**: New concepts + implementation
+- **Thursday**: Practice + troubleshooting  
+- **Friday**: Review + connect concepts
 
 ## 🤝 Contributing to the Discovery
 
 This workspace thrives on collaborative learning! Contributions welcome:
 
 - **Original Examples**: Create fresh implementations that demonstrate concepts clearly
-- **Learning Exercises**: Design progressive challenges that build understanding
+- **Learning Exercises**: Design progressive challenges that build understanding  
 - **Documentation Enhancement**: Improve explanations while maintaining zero-copy principles
 - **Debugging Scenarios**: Add educational failure cases that teach troubleshooting
 
-## 📜 Licensing & Attribution
+## 🌟 Ready to Begin Your AI Mastery?
 
-MIT License - Use freely for learning and teaching, maintaining the spirit of original educational content.
+**✨ Ultra-simple start:** Open [docs/daily-guides/](docs/daily-guides/) and begin Day 1!
 
-## 🌟 Join the AI Discovery Community
+**🎯 Want the big picture first?** Check [90-Day Learning Path](docs/learning-path-90-days.md)
 
-If this systematic approach helps you master generative AI concepts, please star the repository! ⭐
-
-**Ready to begin your discovery?** → [Start Day 1](docs/learning-path-90-days.md#week-1--generative-ai-introduction-days-15)
+**💡 Questions or stuck?** All supporting materials available in [docs/archived/](docs/archived/)
 
 ---
+
+## 📜 License & Community
+
+**MIT License** - Use freely for learning and teaching, maintaining the spirit of original educational content.
+
+**⭐ Found this helpful?** Star the repository to support systematic AI education!
 
 *This learning workspace is crafted with our zero-copy methodology - all content is original, designed specifically for systematic AI concept mastery through hands-on exploration.*
