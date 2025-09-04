@@ -11,13 +11,22 @@
         "os": "windows",
         "shell": "pwsh",
         "domain": "generative-ai-education",
-        "learningPath": "docs/learning-path-90-days.md"
+        "learningPath": "docs/learning-path-90-days.md",
+        "currentStructure": {
+            "activeLearning": {
+                "dailyGuides": "docs/daily-guides/",
+                "weeklyNotebooks": "notebooks/weekly/",
+                "practicalCode": "src/"
+            },
+            "archiveStatus": "legacy-reference-only"
+        }
     },
     "workspace": {
         "include": [
             "src/**",
-            "notebooks/**",
-            "docs/**",
+            "notebooks/weekly/**",
+            "docs/daily-guides/**",
+            "docs/learning-path-90-days.md",
             ".github/prompts/**"
         ],
         "exclude": [
@@ -25,6 +34,7 @@
             ".git/**",
             "**/.ipynb_checkpoints/**",
             "**/__pycache__/**",
+            "docs/archived/**",
             "data/**",
             "*.pkl",
             "*.bin"
@@ -32,10 +42,14 @@
     },
     "notebooks": {
         "defaultKernel": ".venv",
+        "structure": "notebooks/weekly/week##/day##-topic.ipynb",
+        "mapping": "1:1 with daily-guides",
         "rules": {
             "cellMetadataLanguageRequired": true,
             "preserveCellIds": true,
-            "educationalExplanations": true
+            "educationalExplanations": true,
+            "interactiveFunctions": true,
+            "selfContained": true
         }
     },
     "development": {
@@ -52,15 +66,27 @@
             "attention-mechanisms",
             "generative-models",
             "ai-agents",
-            "prompt-engineering"
+            "prompt-engineering",
+            "sampling-strategies",
+            "loss-functions",
+            "probability-basics"
         ],
         "frameworks": [
             "openai",
             "tiktoken",
             "faiss",
             "numpy",
-            "pandas"
-        ]
+            "pandas",
+            "matplotlib",
+            "jupyter"
+        ],
+        "learningPrinciples": {
+            "singleSourceOfTruth": "daily-guides and weekly folders only",
+            "selfContained": "no external dependencies on archived content",
+            "progressiveComplexity": "build concepts incrementally",
+            "interactiveLearning": "hands-on exploration functions",
+            "zeroCopyPolicy": "all content completely original"
+        }
     },
     "prompts": {
         "templatePath": ".github/prompts",

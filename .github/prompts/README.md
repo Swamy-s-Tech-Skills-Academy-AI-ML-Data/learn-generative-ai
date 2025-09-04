@@ -44,7 +44,7 @@ This folder contains curated prompt templates designed specifically for the lear
 ## Example Usage
 
 ```
-I'm on Day 15 of a 45-day generative AI learning path. Today's topic is "Attention Mechanisms".
+I'm on Day 15 of a 90-day generative AI learning path. Today's topic is "Attention Mechanisms" (docs/daily-guides/week03/day15-attention-mechanisms.md).
 
 Help me:
 1. Create 3 practical exercises to reinforce today's concepts
@@ -54,10 +54,11 @@ Help me:
 
 ## Customization Tips
 
-- **Add project context**: Include relevant file paths or repository structure
+- **Add project context**: Include relevant file paths from docs/daily-guides/ or notebooks/weekly/
 - **Specify skill level**: Mention your experience level for appropriate explanations
 - **Include constraints**: Note any specific requirements (Windows/PowerShell, Python 3.12.5, etc.)
 - **Request format**: Specify desired output format (code, diagrams, checklists, etc.)
+- **Reference current structure**: Use our single source of truth (daily-guides and weekly folders)
 
 ## Contributing
 
@@ -68,7 +69,8 @@ When adding new prompts:
 - Focus on educational value over quick solutions
 - Test prompts with GitHub Copilot before committing
 - Follow the existing structure and formatting
+- Align with our zero-copy policy for original content
 
 ---
 
-These prompts are designed to work with the repository's learning path and development practices. They complement the instructions in `.github/copilot-instructions.md` and support the 45-day structured learning approach.
+These prompts are designed to work with the repository's 90-day learning path and development practices. They complement the instructions in `.github/copilot-instructions.md` and support the structured learning approach using docs/daily-guides/ and notebooks/weekly/ as the single source of truth.

@@ -3,7 +3,7 @@
 ## Daily Learning Focus
 
 ```text
-I'm on Day [X] of a 45-day generative AI learning path. Today's topic is "[TOPIC]".
+I'm on Day [X] of a 90-day generative AI learning path. Today's topic is "[TOPIC]" (docs/daily-guides/week##/day##-topic.md).
 
 Help me:
 1. Create 3 practical exercises to reinforce today's concepts
@@ -12,7 +12,7 @@ Help me:
 4. Suggest real-world examples that illustrate these concepts
 5. Create a one-page summary template I can fill out
 
-Focus on hands-on application rather than theoretical review.
+Focus on hands-on application using the interactive functions in notebooks/weekly/week##/day##-topic.ipynb.
 ```
 
 ## Concept Connection
@@ -33,7 +33,7 @@ Make connections explicit and actionable for learning.
 ## Progress Assessment
 
 ```text
-I've completed [X] days of my generative AI learning path covering: [LIST TOPICS].
+I've completed [X] days of my 90-day generative AI learning path covering: [LIST TOPICS] from docs/daily-guides/week##/.
 
 Create a comprehensive review:
 1. Design a self-assessment quiz with scenario-based questions
@@ -42,5 +42,5 @@ Create a comprehensive review:
 4. Create a practical application challenge for my skill level
 5. Recommend next steps to deepen my expertise
 
-Focus on applied knowledge rather than memorization.
+Focus on applied knowledge using the interactive exploration functions in my weekly notebooks.
 ```

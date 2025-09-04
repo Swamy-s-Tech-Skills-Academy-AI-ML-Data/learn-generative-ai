@@ -82,18 +82,19 @@ Our discovery environment organizes learning into specialized zones:
 
 #### Primary Learning Structure (Single Source of Truth):
 
-- `docs/daily-guides/` contains daily learning guides organized by weeks (theory and concepts)
-- `notebooks/weekly/` delivers interactive practice notebooks with 1:1 mapping to daily guides
-- `docs/archived/` serves as active resource pool for content migration and reuse
+- `docs/daily-guides/` contains complete daily learning guides organized by weeks (theory and concepts)
+- `notebooks/weekly/` delivers interactive practice notebooks with perfect 1:1 mapping to daily guides
+- Complete self-containment - no external dependencies on archived materials
 
 #### Supporting Infrastructure:
 
 - `src/` houses functional implementations that illuminate concepts transparently
 - `.github/` preserves development methodologies and prompt collections
+- `docs/archived/` legacy materials for reference only (not used in current learning path)
 
-#### Content Management Strategy:
+#### Content Management Philosophy:
 
-**Archive as Active Resource Pool**: When creating new daily content, always check archived materials first. If suitable content exists, migrate and adapt it to the specific day's learning objectives, then modify or remove the archived version to prevent duplication. This ensures efficient content reuse while maintaining single source of truth for each concept.
+**Single Source of Truth Established**: All current learning content resides in `docs/daily-guides/` and `notebooks/weekly/` folders. These are completely self-contained with no references to archived materials. Each daily guide contains all necessary learning content for that day, and each notebook provides perfect 1:1 mapping with comprehensive interactive functions for hands-on exploration.
 
 ## Code Crafting Protocols
 
@@ -243,31 +244,30 @@ Our configuration presumes:
 - Supply debugging scenarios that cultivate troubleshooting expertise
 - Generate evaluation questions that examine application versus memorization
 
-### Content Migration and Reuse Strategy
+### Content Management and Reuse Strategy
 
-**CRITICAL WORKFLOW: Archive as Active Resource Pool**
+**ESTABLISHED PRINCIPLE: Single Source of Truth**
 
-When creating daily content for `docs/daily-guides/` or `notebooks/weekly/`:
+All current learning content operates under complete self-containment:
 
-1. **Check archived materials first**: Search `docs/archived/` for relevant existing content
-2. **Migrate suitable content**: Move/adapt archived materials to appropriate daily guide or notebook
-3. **Modify archived files**: Update or remove original archived content to prevent duplication
-4. **Maintain single source of truth**: Each concept exists in only one primary location
-5. **Create fresh content only**: When archived materials don't fit the day's learning objectives
+1. **Primary content locations**: `docs/daily-guides/` and `notebooks/weekly/` contain all active learning materials
+2. **No external dependencies**: Daily guides and notebooks are completely self-contained
+3. **Archive status**: `docs/archived/` serves as legacy reference only - not used in current learning path
+4. **Content completeness**: Each daily guide contains all necessary learning content for that day
+5. **Perfect 1:1 mapping**: Each notebook corresponds exactly to its daily guide with interactive functions
 
-**Archive Content Types Available:**
+**Current Content Structure (Week 1 Complete):**
 
-- `docs/archived/concepts/` - Foundational AI concept explanations
-- `docs/archived/tutorials/` - Workshop-style learning materials
-- `docs/archived/reference/` - Technical documentation and API guides
-- `docs/archived/day1/`, `docs/archived/day4/` - Legacy daily materials
-- Individual notebooks and guides for potential reuse
+- `docs/daily-guides/week01/` - Complete self-contained daily learning materials
+- `notebooks/weekly/week01/` - Interactive practice notebooks with enhanced exploration functions
+- Perfect alignment between guides and notebooks with no archived dependencies
 
-**Migration Examples:**
+**Content Development Principles:**
 
-- Day 8 tokenization → Check `docs/archived/tutorials/day3-tokenization-workshop.md`
-- Day 12 embeddings → Check `docs/archived/concepts/embeddings-fundamentals.md`
-- Advanced concepts → Check `docs/archived/concepts/` and `docs/archived/reference/`
+- All new content developed using zero-copy policy (completely original)
+- Interactive exploration functions integrated into notebooks
+- Self-contained explanations in each daily guide
+- No references to archived materials in user-facing documentation
 
 ### Single README Enforcement
 

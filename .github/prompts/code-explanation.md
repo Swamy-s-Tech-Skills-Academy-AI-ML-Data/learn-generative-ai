@@ -50,3 +50,37 @@ Break down:
 
 Focus on the conceptual framework rather than syntax.
 ```
+
+## For Interactive Exploration Functions
+
+```
+Explain this interactive learning function from our weekly notebooks:
+
+[INSERT CODE HERE]
+
+Break down:
+1. What educational concept this function demonstrates
+2. How the interactive elements enhance understanding
+3. What parameters users can modify to explore different scenarios
+4. How the visualizations or outputs teach the underlying concepts
+5. Ways to extend this function for deeper exploration
+
+Focus on the pedagogical design and learning outcomes.
+```
+
+## For Self-Contained Educational Code
+
+```
+Help me understand this self-documenting educational implementation:
+
+[INSERT CODE HERE]
+
+Explain:
+1. How the code structure teaches the underlying AI concept
+2. What makes this implementation educational vs. production-focused
+3. How variable names and comments guide learning
+4. What insights the example reveals about the AI technique
+5. How to modify it for hands-on experimentation
+
+Emphasize learning through code transparency and experimentation.
+```
