@@ -11,6 +11,7 @@ Our concept guides illuminate AI fundamentals through original explanations:
 - [Generative AI Fundamentals](concepts/generative-ai-fundamentals.md) - Essential principles and terminology
 - [Language Models](concepts/language-models.md) - How machines understand and generate text
 - [Tokenization Fundamentals](concepts/tokenization-fundamentals.md) - The bridge between text and AI processing
+- [Embeddings Fundamentals](concepts/embeddings-fundamentals.md) - Semantic vector representations and mathematical properties
 - [AI Agents](concepts/ai-agents.md) - Intelligent systems that reason and act
 - [Agentic AI Patterns](concepts/agentic-ai-patterns.md) - Design patterns for autonomous systems
 
@@ -20,6 +21,8 @@ Progressive guides that build understanding through implementation:
 
 - [From Generative AI to Agents](tutorials/genai-to-agents.md) - Complete progression pathway
 - [Day 3: Tokenization Workshop](tutorials/day3-tokenization-workshop.md) - Hands-on tokenization mastery
+- [Day 4: Embeddings Workshop](tutorials/day4-embeddings-workshop.md) - Comprehensive embeddings discovery laboratory
+- [BPE Morphological Discovery](tutorials/bpe-morphological-discovery.md) - Advanced tokenization patterns
 - Environment setup and tool configuration
 - API integration with original examples
 - Custom implementation strategies
