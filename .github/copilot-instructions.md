@@ -1,6 +1,37 @@
 # GitHub Copilot Instructions for this Repo
 
-These guidelines help Copilot (and contributors) generate changes that fit the project’s structure and standards.
+These guidelines help ## Learning-specific guidance
+
+- This is an educational repository following a 45-day structured learning path (`docs/learning-path-45-days.md`).
+- When generating examples, prioritize educational clarity over production optimization.
+- Include step-by-step explanations in code comments for learning purposes.
+- For AI/ML concepts, provide intuitive explanations alongside technical implementations.
+- Use meaningful variable names that teach concepts (e.g., `attention_weights` not `aw`).
+
+## Generative AI development patterns
+
+- For tokenization examples: explain vocabulary choices, special tokens, and encoding strategies.
+- For embeddings: include similarity calculations, dimensionality considerations, and visualization hints.
+- For model implementations: break down forward passes, loss calculations, and training loops.
+- For agent patterns: document reasoning steps, state management, and failure handling.
+
+## Prompt engineering guidelines
+
+- Check `.github/prompts/` for curated prompt templates before asking general questions.
+- Use structured prompts for code explanation, debugging, and concept exploration.
+- Include relevant context about learning objectives when requesting assistance.
+
+## Examples of "good Copilot tasks" here
+
+- Improve a script's CLI ergonomics (e.g., add `--model` and `--file` flags).
+- Refactor a demo to share a tokenizer/helper across examples.
+- Add short markdown explanations above code cells in notebooks.
+- Update docs/QUICKSTART.md when moving learning materials.
+- Create educational examples that demonstrate specific AI concepts clearly.
+- Generate step-by-step breakdowns of complex generative AI algorithms.
+- Design progressive exercises that build from basic concepts to advanced implementations.
+
+Thanks for keeping `src/` production‑grade and `notebooks/` learner‑friendly.(and contributors) generate changes that fit the project’s structure and standards.
 
 ## Project quick facts
 

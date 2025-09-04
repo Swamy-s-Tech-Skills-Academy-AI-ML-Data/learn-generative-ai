@@ -9,27 +9,67 @@
         "pythonVersion": "3.12.5",
         "venvFolder": ".venv",
         "os": "windows",
-        "shell": "pwsh"
+        "shell": "pwsh",
+        "domain": "generative-ai-education",
+        "learningPath": "docs/learning-path-45-days.md"
     },
     "workspace": {
         "include": [
             "src/**",
             "notebooks/**",
-            "docs/**"
+            "docs/**",
+            ".github/prompts/**"
         ],
         "exclude": [
             ".venv/**",
             ".git/**",
             "**/.ipynb_checkpoints/**",
             "**/__pycache__/**",
-            "data/**"
+            "data/**",
+            "*.pkl",
+            "*.bin"
         ]
     },
     "notebooks": {
         "defaultKernel": ".venv",
         "rules": {
             "cellMetadataLanguageRequired": true,
-            "preserveCellIds": true
+            "preserveCellIds": true,
+            "educationalExplanations": true
         }
+    },
+    "development": {
+        "codeStyle": "educational",
+        "documentation": "verbose",
+        "errorHandling": "explanatory",
+        "testing": "example-driven"
+    },
+    "ai": {
+        "concepts": [
+            "tokenization",
+            "embeddings",
+            "transformers",
+            "attention-mechanisms",
+            "generative-models",
+            "ai-agents",
+            "prompt-engineering"
+        ],
+        "frameworks": [
+            "openai",
+            "tiktoken",
+            "faiss",
+            "numpy",
+            "pandas"
+        ]
+    },
+    "prompts": {
+        "templatePath": ".github/prompts",
+        "categories": [
+            "code-explanation",
+            "learning-path",
+            "project-development",
+            "research-exploration",
+            "troubleshooting-debug"
+        ]
     }
 }
