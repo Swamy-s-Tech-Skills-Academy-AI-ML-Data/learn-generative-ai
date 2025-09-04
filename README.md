@@ -161,10 +161,13 @@ Each day follows this optimized 30-minute format for maximum learning efficiency
 
 ### Week 1 Supporting Materials
 
-**🔬 Interactive Practice:**
-- [Week 1 Comprehensive Practice](notebooks/weekly/week01/week01-comprehensive-practice.ipynb) - Integrated exercises for all 5 days
-- [Daily Practice Notebooks](notebooks/weekly/week01/) - Individual day-specific practice (day01-day05)
-- [Bonus Day 1 Foundations](notebooks/weekly/week01/bonus-day01-foundations.ipynb) - Additional foundational exercises
+**🔬 Interactive Practice (Perfect 1:1 Mapping):**
+
+- [Day 1: GenAI Introduction](notebooks/weekly/week01/day01-genai-intro.ipynb) - Interactive AI comparison with comprehensive foundations
+- [Day 2: AI Overview](notebooks/weekly/week01/day02-genai-overview.ipynb) - Training vs generation simulation with deep dive exploration
+- [Day 3: Key Components](notebooks/weekly/week01/day03-key-components.ipynb) - System architecture analysis with component interactions
+- [Day 4: Probability Basics](notebooks/weekly/week01/day04-probability-basics.ipynb) - AI-focused probability distributions with visualizations
+- [Day 5: Loss Functions](notebooks/weekly/week01/day05-loss-functions.ipynb) - Comprehensive loss analysis with training dynamics
 
 **📖 Reference Materials:** Access [archived concepts](docs/archived/concepts/) when you need deeper theoretical exploration
 

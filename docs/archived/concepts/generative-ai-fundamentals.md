@@ -1,10 +1,11 @@
 # Generative AI Fundamentals
 
 > **📝 Migration Note**: Core Week 1 content from this file has been migrated to:
+>
 > - `docs/daily-guides/week01/day01-genai-intro.md` (What is GenAI, Key Characteristics)
 > - `docs/daily-guides/week01/day02-genai-overview.md` (How GenAI Works)
 > - `docs/daily-guides/week01/day03-key-components.md` (Key Components & Architecture)
-> 
+>
 > This file remains as comprehensive reference material for deeper exploration.
 
 ## What is Generative AI?
