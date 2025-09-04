@@ -1,10 +1,10 @@
-# Learn Generative AI: 45-Day Discovery Workshop
+# Learn Generative AI: 60-Day Comprehensive Discovery Workshop
 
-**Master Generative AI through systematic, hands-on exploration** - No textbook copying, just original learning experiences designed for deep conceptual understanding.
+**Master Generative AI through systematic, hands-on exploration** - No textbook copying, just original learning experiences designed for deep conceptual understanding and production-ready skills.
 
 ## 🌟 Our Learning Philosophy
 
-This workspace orchestrates a **45-day expedition** through generative AI fundamentals, architected for active exploration rather than passive absorption. Every piece of code, documentation, and interaction advances the mission of profound conceptual comprehension.
+This workspace orchestrates a **60-day comprehensive expedition** through generative AI fundamentals to advanced agent development, architected for active exploration rather than passive absorption. Every piece of code, documentation, and interaction advances the mission of profound conceptual comprehension and practical mastery.
 
 ### Discovery-Driven Learning
 
@@ -12,14 +12,15 @@ This workspace orchestrates a **45-day expedition** through generative AI fundam
 - **Progressive Skill Development**: Each day builds systematically on previous knowledge
 - **Original Content Only**: All materials crafted from first principles using our zero-copy methodology
 - **Concept Bridge Building**: Explicit connections between related AI topics
+- **Production Focus**: Learn through building real-world applications
 
-### Structured Progression (45 Days, 5 Days/Week)
+### Comprehensive Progression (60 Days, 5 Days/Week)
 
-- **Week 1-2**: Generative AI foundations and basic concepts
-- **Week 3-4**: Language models and tokenization deep dive
-- **Week 5-6**: Embeddings and vector operations mastery
-- **Week 7-8**: Advanced model architectures and attention mechanisms
-- **Week 9**: AI agents and practical applications
+- **Week 1-2**: Generative AI foundations and mathematical concepts
+- **Week 3-4**: Tokenization and embeddings deep dive with hands-on workshops
+- **Week 5-7**: Language models, attention mechanisms, and advanced architectures
+- **Week 8-10**: AI agents - from concepts to production implementation
+- **Week 11-12**: Advanced features, deployment, and capstone project
 
 ## 🚀 Quick Start Your Discovery
 
@@ -33,7 +34,7 @@ cd learn-generative-ai
 pip install -r requirements.txt
 
 # Begin Day 1 exploration
-python src/day1/basic_concepts.py
+python src/a1/basic_concepts.py
 ```
 
 ## 📁 Discovery Workspace Organization
@@ -41,18 +42,19 @@ python src/day1/basic_concepts.py
 ```text
 learn-generative-ai/
 ├── src/                    # Functional implementations that illuminate concepts
-│   ├── day1/              # Basic AI concepts and foundations
-│   ├── day2/              # API integration and Hello World examples  
-│   ├── day3/              # Tokenization analysis and encoding
-│   ├── day4/              # Embeddings and vector operations
-│   └── ...                # Progressive daily explorations
+│   ├── a1/                # Basic AI concepts and foundations
+│   ├── a2/                # Tokenization analysis and encoding  
+│   ├── a3/                # Embeddings and vector operations
+│   └── ...                # Progressive topic explorations
 ├── notebooks/             # Interactive investigation environments
-│   └── day1/              # Jupyter notebooks for experimentation
+│   ├── day1/              # Foundations Jupyter notebook
+│   ├── day4/              # Embeddings discovery laboratory
+│   └── ...                # Day-specific interactive explorations
 ├── docs/                  # Systematic curriculum and reference materials
 │   ├── concepts/          # Core AI concepts with original explanations
 │   ├── tutorials/         # Step-by-step discovery guides
 │   ├── reference/         # API references and technical details
-│   └── learning-path-45-days.md  # Complete structured curriculum
+│   └── learning-path-60-days.md  # Complete structured curriculum
 ├── .github/               # Development methodologies and prompt collections
 │   └── prompts/           # Curated templates for enhanced Copilot interaction
 └── requirements.txt       # Pinned dependencies for reproducible environment
@@ -148,7 +150,7 @@ MIT License - Use freely for learning and teaching, maintaining the spirit of or
 
 If this systematic approach helps you master generative AI concepts, please star the repository! ⭐
 
-**Ready to begin your discovery?** → [Start Day 1](docs/learning-path-45-days.md#week-1--generative-ai-foundations-days-15)
+**Ready to begin your discovery?** → [Start Day 1](docs/learning-path-60-days.md#week-1--generative-ai-foundations-days-15)
 
 ---
 

@@ -11,7 +11,7 @@
         "os": "windows",
         "shell": "pwsh",
         "domain": "generative-ai-education",
-        "learningPath": "docs/learning-path-45-days.md"
+        "learningPath": "docs/learning-path-60-days.md"
     },
     "workspace": {
         "include": [
