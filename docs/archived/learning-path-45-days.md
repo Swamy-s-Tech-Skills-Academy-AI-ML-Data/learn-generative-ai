@@ -1,5 +1,15 @@
 # 9‑Week Generative AI Learning Path (45 days, 5 days/week, ~30 min/day)
 
+> **📝 Migration Note**: Week 1 content from this learning path has been migrated and enhanced in:
+>
+> - **Current Learning Path**: [`docs/learning-path-90-days.md`](../learning-path-90-days.md)
+> - **Daily Guides**: [`docs/daily-guides/week01/`](../daily-guides/week01/)
+> - **Interactive Notebooks**: [`notebooks/weekly/week01/`](../../notebooks/weekly/week01/)
+>
+> This file remains for reference. Please use the enhanced 90-day path for active learning.
+
+This plan uses only content from this repository's `docs/` folder. Study 5 days per week (e.g., Mon–Fri), ~30 minutes per day. Weekends are for rest or catch‑up.‑Week Generative AI Learning Path (45 days, 5 days/week, ~30 min/day)
+
 This plan uses only content from this repository’s `docs/` folder. Study 5 days per week (e.g., Mon–Fri), ~30 minutes per day. Weekends are for rest or catch‑up.
 
 Note: Paths below are relative to `docs/`.

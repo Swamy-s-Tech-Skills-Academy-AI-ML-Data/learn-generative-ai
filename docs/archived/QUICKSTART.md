@@ -1,4 +1,12 @@
-# Quick Start: Begin Your 45-Day AI Discovery
+# Quick Start: Begin Your AI Learning Journey
+
+> **📝 Migration Note**: This QUICKSTART content has been superseded by:
+>
+> - **Main Setup Guide**: [`README.md`](../../README.md#quick-environment-setup)
+> - **90-Day Learning Path**: [`docs/learning-path-90-days.md`](../learning-path-90-days.md)
+> - **Week 1 Daily Guides**: [`docs/daily-guides/week01/`](../daily-guides/week01/)
+>
+> This file remains for reference. Please use the current learning materials for active study.
 
 This guide helps you establish your learning environment and start exploring generative AI concepts immediately. Follow these steps to join our systematic discovery workshop.
 
