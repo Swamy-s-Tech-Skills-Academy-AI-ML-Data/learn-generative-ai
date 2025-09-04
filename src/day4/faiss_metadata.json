@@ -1,0 +1,20 @@
+[
+  {
+    "doc_id": "68f6d012-5d41-42c5-83da-cbc858c9dcf9",
+    "title": "AI News",
+    "category": "technology",
+    "content": "Artificial Intelligence is transforming the world."
+  },
+  {
+    "title": "Eiffel Tower",
+    "category": "travel",
+    "content": "The Eiffel Tower is located in Paris, France.",
+    "doc_id": "3985d682-adc6-457c-8291-d21a365cd612"
+  },
+  {
+    "title": "Python Language",
+    "category": "technology",
+    "content": "Python is a popular programming language.",
+    "doc_id": "76d05778-fe96-406c-b884-4e40b3d4c93e"
+  }
+]
