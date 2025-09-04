@@ -34,6 +34,50 @@ When generating code, prioritize understanding over optimization:
 - **Model Architecture**: Break down layer interactions and information flow
 - **Agent Behavior**: Expose decision-making processes and state management
 
+### Custom Code Examples for Learning
+When writing educational code, create self-documenting implementations:
+
+```python
+def explore_tokenization_impact(text_samples: List[str], tokenizer_name: str) -> None:
+    """
+    Educational function that demonstrates how tokenizer choices affect downstream processing.
+    Shows vocabulary size, token count variations, and special token handling.
+    """
+    print(f"🔍 Analyzing tokenization with {tokenizer_name}")
+    
+    # Step 1: Load tokenizer and show basic info
+    tokenizer = load_tokenizer(tokenizer_name)
+    print(f"   Vocabulary size: {tokenizer.vocab_size:,}")
+    print(f"   Special tokens: {tokenizer.special_tokens}")
+    
+    # Step 2: Process each sample and explain differences
+    for i, text in enumerate(text_samples, 1):
+        tokens = tokenizer.encode(text)
+        print(f"\n📝 Sample {i}: '{text[:50]}...'")
+        print(f"   → {len(tokens)} tokens: {tokens[:10]}...")
+        print(f"   → First token maps to: '{tokenizer.decode([tokens[0]])}'")
+        
+        # Educational insight: show boundary effects
+        if len(tokens) > 1:
+            print(f"   💡 Token boundary: '{tokenizer.decode([tokens[0], tokens[1]])}'")
+```
+
+### Learning-Focused Error Handling
+Design error messages that teach debugging skills:
+
+```python
+def validate_embedding_dimensions(embeddings: np.ndarray, expected_dim: int) -> None:
+    """Educational validation that explains dimensional mismatches."""
+    if embeddings.shape[-1] != expected_dim:
+        actual_dim = embeddings.shape[-1]
+        print(f"❌ Dimension Mismatch!")
+        print(f"   Expected: {expected_dim} dimensions")
+        print(f"   Got: {actual_dim} dimensions")
+        print(f"   🔧 Fix: Check your embedding model configuration")
+        print(f"   💡 Common cause: Model version mismatch")
+        raise ValueError(f"Embedding dimension mismatch: {actual_dim} != {expected_dim}")
+```
+
 ### Development Environment
 Our setup assumes:
 - Windows development with PowerShell as the primary shell
@@ -48,6 +92,67 @@ Our setup assumes:
 - Suggest practical exercises that reinforce theoretical understanding
 - Provide debugging scenarios that teach troubleshooting methodology
 - Create assessment questions that test application rather than memorization
+
+### Weekly Milestone Tracking
+Create checkpoints that validate conceptual understanding:
+
+```python
+def week_2_concept_check():
+    """
+    Self-assessment for Week 2: Language Model Fundamentals
+    Tests practical understanding rather than memorization.
+    """
+    print("🎯 Week 2 Concept Validation")
+    
+    # Practical tokenization challenge
+    challenge_text = "The AI model's tokenizer splits text differently than expected."
+    
+    print(f"\n📋 Challenge: Analyze this text's tokenization:")
+    print(f"   Text: '{challenge_text}'")
+    print(f"   Task: Predict where token boundaries will occur")
+    print(f"   Hint: Look for subword patterns and punctuation")
+    
+    # Interactive learning prompt
+    user_prediction = input("Your prediction (token count): ")
+    
+    # Educational feedback
+    actual_tokens = encode_with_explanation(challenge_text)
+    print(f"\n✅ Learning Check:")
+    print(f"   Your prediction: {user_prediction}")
+    print(f"   Actual count: {len(actual_tokens)}")
+    print(f"   💡 Key insight: {get_tokenization_insight(actual_tokens)}")
+```
+
+### Concept Bridge Building
+Help learners connect disparate AI concepts:
+
+```python
+def connect_embeddings_to_attention():
+    """
+    Educational demonstration showing how embeddings flow into attention mechanisms.
+    Bridges Week 2 (embeddings) with Week 3 (attention) concepts.
+    """
+    print("🌉 Bridging Concepts: Embeddings → Attention")
+    
+    # Step 1: Create meaningful embeddings
+    words = ["king", "queen", "man", "woman"]
+    embeddings = create_demo_embeddings(words)
+    
+    print("📊 Input embeddings (simplified):")
+    for word, emb in zip(words, embeddings):
+        print(f"   {word:6}: {emb[:3]}... (dim: {len(emb)})")
+    
+    # Step 2: Show attention computation
+    attention_scores = compute_simple_attention(embeddings)
+    
+    print("\n🔍 Attention relationships:")
+    for i, word in enumerate(words):
+        similar_word = words[np.argmax(attention_scores[i])]
+        score = attention_scores[i].max()
+        print(f"   {word} ↔ {similar_word} (similarity: {score:.3f})")
+    
+    print("\n💡 Key insight: Embeddings capture meaning, attention finds relationships!")
+```
 
 ### Progressive Skill Building
 - Start explanations with intuitive analogies before technical details
@@ -78,6 +183,68 @@ When providing assistance:
 - Provide concrete examples that learners can modify and experiment with
 - Suggest verification methods to confirm understanding
 
+### Learning Conversation Starters
+Initiate deeper exploration with these approaches:
+
+```text
+🎯 Exploration Prompt: "Let's discover why this works..."
+Instead of: "Here's the tokenizer code"
+Try: "Let's explore why different tokenizers produce different results for the same text"
+
+🔧 Hands-on Challenge: "What happens if we change..."
+Instead of: "This is how attention works"
+Try: "What happens if we modify the attention weights? Let's experiment and observe"
+
+🤔 Critical Thinking: "How would you debug this..."
+Instead of: "The error is in line 15"
+Try: "You're seeing unexpected embeddings. How would you investigate what's happening?"
+
+💡 Connection Making: "This relates to yesterday's concept because..."
+Instead of: "Here's today's new topic"
+Try: "Today's transformers build directly on yesterday's attention—here's how they connect"
+```
+
+### Adaptive Explanation Levels
+Tailor explanations to learner progression:
+
+```python
+def explain_attention_mechanism(learner_week: int) -> str:
+    """
+    Adaptive explanation that grows with learner's knowledge.
+    Week 1-2: Basic intuition, Week 3-4: Mathematical details, Week 5+: Implementation
+    """
+    explanations = {
+        "week_1_2": """
+        🌟 Attention is like a spotlight in a dark room.
+        It helps the AI decide which words to "pay attention to" when processing text.
+        Think of reading a sentence and automatically focusing on the most important words.
+        """,
+        
+        "week_3_4": """
+        🔢 Attention computes similarity scores between words using dot products.
+        Each word gets to "vote" on how relevant other words are to understanding it.
+        The softmax function converts these votes into probabilities that sum to 1.
+        """,
+        
+        "week_5_plus": """
+        ⚙️ Multi-head attention runs multiple attention computations in parallel:
+        
+        for head in range(num_heads):
+            Q, K, V = linear_projections(x, head)
+            attention_output = softmax(Q @ K.T / sqrt(d_k)) @ V
+        
+        This captures different types of relationships simultaneously.
+        """
+    }
+    
+    if learner_week <= 2:
+        return explanations["week_1_2"]
+    elif learner_week <= 4:
+        return explanations["week_3_4"]
+    else:
+        return explanations["week_5_plus"]
+```
+
 ### Quality Assurance for Learning
 Code should be:
 - Immediately readable by someone learning AI concepts
@@ -87,11 +254,87 @@ Code should be:
 
 ## Development Best Practices
 
-### Script Organization
-- Create command-line interfaces that teach through their usage
-- Include help text that explains the educational purpose
-- Design parameters that let learners experiment with different configurations
-- Provide example usage that demonstrates key concepts
+### Educational Script Architecture
+Create command-line tools that teach through interaction:
+
+```python
+def create_tokenization_explorer():
+    """
+    Educational CLI that teaches tokenization through hands-on experimentation.
+    Example of how to build learning into tool design.
+    """
+    import argparse
+    
+    parser = argparse.ArgumentParser(
+        description="🔤 Interactive Tokenization Explorer",
+        epilog="Discover how different tokenizers handle the same text!",
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    
+    parser.add_argument('text', 
+                       help='Text to tokenize and analyze')
+    parser.add_argument('--compare', nargs='+', 
+                       default=['gpt2', 'bert-base-uncased'],
+                       help='Tokenizers to compare (default: gpt2, bert-base-uncased)')
+    parser.add_argument('--explain', action='store_true',
+                       help='Show detailed explanations of tokenization choices')
+    parser.add_argument('--visualize', action='store_true',
+                       help='Create visual representation of token boundaries')
+    
+    # Add learning-focused help examples
+    parser.epilog = """
+    🎓 Learning Examples:
+      python tokenize_explore.py "Hello world!" --explain
+      python tokenize_explore.py "AI tokenization" --compare gpt2 t5-base --visualize
+      python tokenize_explore.py "模型" --explain  # Test non-English text
+    
+    💡 Try different text types to see how tokenizers handle:
+      - Punctuation and special characters
+      - Non-English languages  
+      - Technical terms vs common words
+      - Very long vs very short texts
+    """
+    
+    return parser
+```
+
+### Learning-Oriented Testing Patterns
+Design tests that reinforce understanding:
+
+```python
+def test_embedding_similarity_educational():
+    """
+    Test that doubles as a learning exercise about embedding behavior.
+    Shows both expected behavior and common misconceptions.
+    """
+    # Setup: Create embeddings for related words
+    words = ["happy", "joyful", "sad", "angry"]
+    embeddings = get_word_embeddings(words)
+    
+    # Learning checkpoint 1: Positive emotions should cluster
+    happy_joy_similarity = cosine_similarity(embeddings[0], embeddings[1])
+    assert happy_joy_similarity > 0.5, f"""
+    🤔 Unexpected similarity between 'happy' and 'joyful': {happy_joy_similarity:.3f}
+    
+    💡 Expected: > 0.5 (since both are positive emotions)
+    🔧 Check: Are you using the right embedding model?
+    📚 Concept: Semantic embeddings should group similar meanings
+    """
+    
+    # Learning checkpoint 2: Opposite emotions should be distinct
+    happy_sad_similarity = cosine_similarity(embeddings[0], embeddings[2])
+    assert happy_sad_similarity < 0.3, f"""
+    🤔 'Happy' and 'sad' are too similar: {happy_sad_similarity:.3f}
+    
+    💡 Expected: < 0.3 (opposite emotions should be distant)
+    🔧 Debug: Try visualizing these embeddings in 2D
+    📚 Concept: Embedding space should reflect semantic relationships
+    """
+    
+    print("✅ Embedding similarity test passed!")
+    print(f"   Happy-Joyful: {happy_joy_similarity:.3f} (semantically close)")
+    print(f"   Happy-Sad: {happy_sad_similarity:.3f} (semantically distant)")
+```
 
 ### Documentation Approach
 - Structure explanations from basic intuition to advanced implementation
