@@ -48,20 +48,19 @@ Input Prompt → Model Processing → Generated Output
 
 ## 🔬 Notebook Practice (15 minutes)
 
-**Notebook**: [`week01-comprehensive-practice.ipynb`](../../../notebooks/weekly/week01/week01-comprehensive-practice.ipynb)
+**Notebook**: [`day02-genai-overview.ipynb`](../../../notebooks/weekly/week01/day02-genai-overview.ipynb)
 
-- **Section**: "Day 2: Training vs Generation"
-- **Activities**:
-  - Explore training data examples
-  - Visualize the learning process
-  - Understand pattern recognition
+- **Training Process Simulation**: Visualize how models learn over epochs with realistic loss curves
+- **Model Capacity Analysis**: Compare small, medium, and large models across complexity levels
+- **Generation Phase Deep Dive**: Explore how trained models generate content with different sampling strategies
+- **Probability Distributions**: See how models predict next words using greedy, random, and top-k sampling
 
 ### Hands-on Tasks
 
-- [ ] Sketch the high-level training concept
-- [ ] Explore training data examples in the notebook
-- [ ] Run the "pattern learning" simulation
-- [ ] Review training vs generation comparison
+- [ ] Run the `simulate_training_process()` to see realistic training curves and phases
+- [ ] Analyze the model size vs performance visualization
+- [ ] Execute the `simulate_generation_process()` to understand prediction strategies
+- [ ] Compare greedy vs random vs top-k sampling results for different contexts
 
 ## 🤔 Reflection & Planning (5 minutes)
 
@@ -93,9 +92,7 @@ By the end of Day 2, you should be able to:
 ## 🔗 Quick Links
 
 - **Previous Day**: [Day 1 - GenAI Introduction](day01-genai-intro.md)
-- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
-- **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
-- **Additional Exploration**: [Foundation Notebook](../../docs/archived/day1/01_generative_ai_foundations.ipynb)
+- **Interactive Practice**: [Day 2 Interactive Notebook](../../../notebooks/weekly/week01/day02-genai-overview.ipynb)
 - **Next Day**: [Day 3 - Key Components](day03-key-components.md)
 
 ---

@@ -44,20 +44,21 @@ Input Text → Tokenizer → Neural Network → Sampling → Output Text
 
 ## 🔬 Notebook Practice (15 minutes)
 
-**Notebook**: [`week01-comprehensive-practice.ipynb`](../../../notebooks/weekly/week01/week01-comprehensive-practice.ipynb)
+**Notebook**: [`day03-key-components.ipynb`](../../../notebooks/weekly/week01/day03-key-components.ipynb)
 
-- **Section**: "Day 3: System Architecture"
-- **Activities**:
-  - Explore component relationships
-  - Interact with quality controls
-  - Study architecture diagrams
+- **System Architecture Explorer**: Interactive analysis of AI system components and their relationships
+- **Complexity vs Importance Matrix**: Visualize component significance with scatter plot analysis
+- **Data Flow Visualization**: Track how information moves through the AI system pipeline
+- **Component Interaction Heatmap**: Understand how different parts of the system communicate
+- **Performance Monitoring**: See real-time system performance metrics over time
 
 ### Hands-on Tasks
 
-- [ ] List 2 quality levers you can control
-- [ ] Study architecture diagrams in the notebook
-- [ ] Test different quality settings
-- [ ] Map components to real-world systems
+- [ ] Run the `explore_system_architecture()` function to see comprehensive component analysis
+- [ ] Study the complexity vs importance scatter plot to understand component priorities
+- [ ] Analyze the data flow chart showing information transformation stages
+- [ ] Examine the interaction heatmap to see component relationships
+- [ ] Review performance metrics showing processing time and memory usage patterns
 
 ## 🤔 Reflection & Planning (5 minutes)
 
@@ -89,8 +90,7 @@ By the end of Day 3, you should be able to:
 ## 🔗 Quick Links
 
 - **Previous Day**: [Day 2 - How GenAI Works](day02-genai-overview.md)
-- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
-- **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
+- **Interactive Practice**: [Day 3 Interactive Notebook](../../../notebooks/weekly/week01/day03-key-components.ipynb)
 - **Next Day**: [Day 4 - Probability Basics](day04-probability-basics.md)
 
 ---

@@ -44,19 +44,19 @@ Generative Artificial Intelligence refers to AI systems that can create new cont
 
 ## 🔬 Notebook Practice (15 minutes)
 
-**Notebook**: [`week01-comprehensive-practice.ipynb`](../../../notebooks/weekly/week01/week01-comprehensive-practice.ipynb)
+**Notebook**: [`day01-genai-intro.ipynb`](../../../notebooks/weekly/week01/day01-genai-intro.ipynb)
 
-- **Section**: "Day 1: GenAI Fundamentals"
-- **Activities**:
-  - Explore examples of generative vs non-generative AI
-  - Identify generative AI outputs in your daily life
-  - Test basic text generation concepts
+- **Interactive AI Comparison**: Create comprehensive DataFrame comparing discriminative vs generative AI systems
+- **Visual Learning**: Explore scatter plots showing traditional AI classification vs generative AI creativity
+- **Interactive Challenge**: Test your understanding with the AI classification exercise
+- **Real-World Applications**: Identify and categorize AI systems in daily life
 
 ### Hands-on Tasks
 
-- [ ] Run the GenAI classification exercise
-- [ ] List 3 generative AI applications you use
-- [ ] Complete the generative vs discriminative comparison
+- [ ] Run the `create_ai_comparison()` function to see comprehensive AI system examples
+- [ ] Execute the visualization to understand the difference between AI types
+- [ ] Complete the interactive classification test with 6 real-world examples
+- [ ] Analyze the results and review explanations for missed questions
 
 ## 🤔 Reflection & Planning (5 minutes)
 
@@ -87,8 +87,7 @@ By the end of Day 1, you should be able to:
 
 ## 🔗 Quick Links
 
-- **Interactive Practice**: [Week 1 Comprehensive Notebook](../../../notebooks/weekly/week01/week01-comprehensive-practice.ipynb)
-- **Alternative Practice**: [Day 1 Foundations Notebook](../../../notebooks/weekly/week01/bonus-day01-foundations.ipynb)
+- **Interactive Practice**: [Day 1 Interactive Notebook](../../../notebooks/weekly/week01/day01-genai-intro.ipynb)
 - **Next Day**: [Day 2 - How GenAI Works](day02-genai-overview.md)
 
 ---

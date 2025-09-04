@@ -15,20 +15,20 @@
 
 ## 🔬 Notebook Practice (15 minutes)
 
-**Notebook**: [`notebooks/weekly/week01/genai-exploration.ipynb`](../../notebooks/weekly/week01/genai-exploration.ipynb)
+**Notebook**: [`day04-probability-basics.ipynb`](../../../notebooks/weekly/week01/day04-probability-basics.ipynb)
 
-- **Section**: "Day 4: Probability in Practice"
-- **Activities**:
-  - Work through probability examples
-  - Visualize probability distributions
-  - Understand prediction mechanics
+- **Probability Distribution Explorer**: Interactive visualization of uniform, normal, softmax, and attention distributions
+- **AI Prediction Analysis**: See how AI models use softmax to convert raw scores into probabilities
+- **Attention Weight Visualization**: Understand how AI "pays attention" to different parts of input
+- **Real AI Examples**: Explore actual probability distributions used in classification and sequence modeling
 
 ### Hands-on Tasks
 
-- [ ] Explain probability in language modeling (2 sentences)
-- [ ] Practice simple probability examples
-- [ ] Visualize word prediction probabilities
-- [ ] Test probability concepts with text
+- [ ] Run the `explore_probability_distributions()` function to see comprehensive probability visualizations
+- [ ] Analyze the softmax distribution showing AI model predictions for animal classification
+- [ ] Study the attention weight distribution to understand sequence processing
+- [ ] Compare uniform vs normal vs softmax distributions and their AI applications
+- [ ] Verify that probabilities sum to 1.0 in softmax and attention examples
 
 ## 🤔 Reflection & Planning (5 minutes)
 
@@ -60,8 +60,7 @@ By the end of Day 4, you should be able to:
 ## 🔗 Quick Links
 
 - **Previous Day**: [Day 3 - Key Components](day03-key-components.md)
-- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
-- **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
+- **Interactive Practice**: [Day 4 Interactive Notebook](../../../notebooks/weekly/week01/day04-probability-basics.ipynb)
 - **Next Day**: [Day 5 - Loss Functions](day05-loss-functions.md)
 
 ---

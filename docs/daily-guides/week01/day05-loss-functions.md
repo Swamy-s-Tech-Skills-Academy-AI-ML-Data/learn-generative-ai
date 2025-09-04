@@ -15,20 +15,20 @@
 
 ## 🔬 Notebook Practice (15 minutes)
 
-**Notebook**: [`notebooks/weekly/week01/genai-exploration.ipynb`](../../notebooks/weekly/week01/genai-exploration.ipynb)
+**Notebook**: [`day05-loss-functions.ipynb`](../../../notebooks/weekly/week01/day05-loss-functions.ipynb)
 
-- **Section**: "Day 5: Loss Functions & Optimization"
-- **Activities**:
-  - Calculate simple loss functions
-  - Visualize loss optimization
-  - Understand training dynamics
+- **Loss Functions Explorer**: Interactive comparison of MSE, MAE, Huber, and Cross-Entropy loss functions
+- **Gradient Visualization**: See how different loss functions provide learning signals through gradients
+- **Training Simulation**: Observe how learning rate affects training stability and convergence speed
+- **Real Training Dynamics**: Explore realistic training curves showing fast learning, steady improvement, and fine-tuning phases
 
 ### Hands-on Tasks
 
-- [ ] Describe what language modeling loss optimizes
-- [ ] Run basic example in `src/a1/helloworld.py`
-- [ ] Calculate loss for different predictions
-- [ ] Visualize loss function behavior
+- [ ] Run the `explore_loss_functions()` function to see comprehensive loss function comparisons
+- [ ] Analyze how MSE, MAE, and Huber losses behave differently with prediction errors
+- [ ] Study the cross-entropy loss for classification problems and understand why it's preferred
+- [ ] Examine gradient plots to understand how loss functions guide model learning
+- [ ] Review training simulations showing good vs poor learning rate choices
 
 ## 🤔 Reflection & Planning (5 minutes)
 
@@ -69,9 +69,8 @@ Congratulations! You've completed Week 1. You now understand:
 ## 🔗 Quick Links
 
 - **Previous Day**: [Day 4 - Probability Basics](day04-probability-basics.md)
-- **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
-- **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
-- **Code Practice**: [Hello World Example](../../src/a1/helloworld.py)
+- **Interactive Practice**: [Day 5 Interactive Notebook](../../../notebooks/weekly/week01/day05-loss-functions.ipynb)
+- **Code Practice**: [Hello World Example](../../../src/a1/helloworld.py)
 - **Next Week**: Week 2 - Generative AI Deep Dive
 
 ---
