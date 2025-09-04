@@ -14,7 +14,7 @@ Note: Paths below are relative to the repository root.
 - Day 2 — How GenAI Works (Overview)
   - Read: same file, "How Generative AI Works" (first half)
   - Do: Sketch the high-level training concept
-  - Explore: Browse `notebooks/day1/01_generative_ai_foundations.ipynb` (introduction cells)
+  - Explore: Browse `docs/archived/day1/01_generative_ai_foundations.ipynb` (introduction cells)
 
 - Day 3 — Key Components & Architecture
   - Read: same file, "Key Components" section
@@ -149,7 +149,7 @@ Note: Paths below are relative to the repository root.
 - Day 27 — Embedding Generation I
   - Workshop: Day 4 Workshop Experiment 1
   - Code: Run `src/a3/a1_embeddings.py`
-  - Notebook: Begin `notebooks/day4/04_embeddings_discovery_laboratory.ipynb`
+  - Notebook: Begin `docs/archived/day4/04_embeddings_discovery_laboratory.ipynb`
 
 - Day 28 — Embedding Generation II
   - Workshop: Day 4 Workshop Experiment 2
@@ -497,7 +497,7 @@ Note: Paths below are relative to the repository root.
 ### Weeks 1-2: Foundation
 
 - `docs/archived/concepts/generative-ai-fundamentals.md`
-- `notebooks/day1/01_generative_ai_foundations.ipynb`
+- `docs/archived/day1/01_generative_ai_foundations.ipynb`
 - `src/a1/` (basic examples)
 
 ### Weeks 3-4: Core Technologies
@@ -507,7 +507,7 @@ Note: Paths below are relative to the repository root.
 - `docs/archived/tutorials/day3-tokenization-workshop.md`
 - `docs/archived/tutorials/day4-embeddings-workshop.md`
 - `src/a2/` and `src/a3/` (hands-on labs)
-- `notebooks/day4/04_embeddings_discovery_laboratory.ipynb`
+- `docs/archived/day4/04_embeddings_discovery_laboratory.ipynb`
 
 ### Weeks 5-7: Language Models
 

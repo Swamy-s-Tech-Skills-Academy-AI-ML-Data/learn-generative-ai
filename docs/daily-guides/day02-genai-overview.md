@@ -28,7 +28,7 @@
 - [ ] Sketch the high-level training concept
 - [ ] Explore training data examples in the notebook
 - [ ] Run the "pattern learning" simulation
-- [ ] Browse introduction cells in `notebooks/day1/01_generative_ai_foundations.ipynb`
+- [ ] Browse introduction cells in `docs/archived/day1/01_generative_ai_foundations.ipynb`
 
 ## 🤔 Reflection & Planning (5 minutes)
 
@@ -62,7 +62,7 @@ By the end of Day 2, you should be able to:
 - **Previous Day**: [Day 1 - GenAI Introduction](day01-genai-intro.md)
 - **Main Concept**: [Generative AI Fundamentals](../archived/concepts/generative-ai-fundamentals.md)
 - **Interactive Practice**: [Week 1 Notebook](../../notebooks/weekly/week01/genai-exploration.ipynb)
-- **Additional Exploration**: [Foundation Notebook](../../notebooks/day1/01_generative_ai_foundations.ipynb)
+- **Additional Exploration**: [Foundation Notebook](../../docs/archived/day1/01_generative_ai_foundations.ipynb)
 - **Next Day**: [Day 3 - Key Components](day03-key-components.md)
 
 ---
