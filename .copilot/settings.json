@@ -9,27 +9,108 @@
         "pythonVersion": "3.12.5",
         "venvFolder": ".venv",
         "os": "windows",
-        "shell": "pwsh"
+        "shell": "pwsh",
+        "domain": "generative-ai-education",
+        "learningPath": "docs/learning-path-90-days.md",
+        "duration": "18 weeks (90 days, 5 days/week)",
+        "completionStatus": {
+            "week01": "complete",
+            "week02-18": "to-be-developed"
+        },
+        "currentStructure": {
+            "activeLearning": {
+                "dailyGuides": "docs/daily-guides/",
+                "weeklyNotebooks": "notebooks/weekly/",
+                "practicalCode": "src/"
+            },
+            "archiveStatus": "legacy-reference-only"
+        }
     },
     "workspace": {
         "include": [
             "src/**",
-            "notebooks/**",
-            "docs/**"
+            "notebooks/weekly/**",
+            "docs/daily-guides/**",
+            "docs/learning-path-90-days.md",
+            ".github/prompts/**"
         ],
         "exclude": [
             ".venv/**",
             ".git/**",
             "**/.ipynb_checkpoints/**",
             "**/__pycache__/**",
-            "data/**"
+            "docs/archived/**",
+            "data/**",
+            "*.pkl",
+            "*.bin"
         ]
     },
     "notebooks": {
         "defaultKernel": ".venv",
+        "structure": "notebooks/weekly/week##/day##-topic.ipynb",
+        "mapping": "1:1 with daily-guides",
         "rules": {
             "cellMetadataLanguageRequired": true,
-            "preserveCellIds": true
+            "preserveCellIds": true,
+            "educationalExplanations": true,
+            "interactiveFunctions": true,
+            "selfContained": true
         }
+    },
+    "development": {
+        "codeStyle": "educational",
+        "documentation": "verbose",
+        "errorHandling": "explanatory",
+        "testing": "example-driven",
+        "learningFocus": "build-understanding-through-implementation",
+        "namingConventions": "descriptive-educational",
+        "commentStyle": "concept-explaining"
+    },
+    "ai": {
+        "concepts": [
+            "tokenization",
+            "embeddings",
+            "transformers",
+            "attention-mechanisms",
+            "generative-models",
+            "ai-agents",
+            "prompt-engineering",
+            "sampling-strategies",
+            "loss-functions",
+            "probability-basics"
+        ],
+        "frameworks": [
+            "openai",
+            "tiktoken",
+            "faiss",
+            "numpy",
+            "pandas",
+            "matplotlib",
+            "jupyter"
+        ],
+        "learningPrinciples": {
+            "singleSourceOfTruth": "daily-guides and weekly folders only",
+            "selfContained": "no external dependencies on archived content",
+            "progressiveComplexity": "build concepts incrementally",
+            "interactiveLearning": "hands-on exploration functions",
+            "zeroCopyPolicy": "all content completely original"
+        },
+        "qualityAssurance": {
+            "contentOriginality": "verify zero-copy compliance",
+            "educationalValue": "prioritize learning over complexity",
+            "structuralIntegrity": "maintain 1:1 guide-notebook mapping",
+            "selfContainment": "no external content dependencies"
+        }
+    },
+    "prompts": {
+        "templatePath": ".github/prompts",
+        "categories": [
+            "code-explanation",
+            "content-creation",
+            "learning-path",
+            "project-development",
+            "research-exploration",
+            "troubleshooting-debug"
+        ]
     }
 }
