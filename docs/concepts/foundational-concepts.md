@@ -12,26 +12,25 @@ Here's the visual flow of how AI systems transform human language into understan
 
 ```mermaid
 flowchart TD
-    A[Raw Text Input] --> B[Tokenization]
-    B --> C[Encoding to Numbers]
-    C --> D[Embeddings Creation]
-    
-    A1[Text: 'Hello AI world'] --> B1[Tokens: 'Hello', 'AI', 'world']
-    B1 --> C1[Numbers: 7592, 15902, 1917]  
-    C1 --> D1[Vectors: Dense numerical representations]
-    
-    D --> E[AI Model Processing]
-    E --> F[Generate Response]
-    F --> G[Decode back to Text]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style D fill:#e8f5e8
-    style E fill:#fff8e1
+    A["📝 Raw Text <br/> *'AI is powerful!'* <br/> ➡️ Human-readable sentence"]
+    B["🔹 Tokenization <br/> *['AI', ' is', ' powerful', '!']* <br/> ➡️ Break text into chunks"]
+    C["🔢 Encoding <br/> *[1234, 56, 789, 999]* <br/> ➡️ Map tokens to IDs"]
+    D["📊 Embeddings <br/> *[0.12, -0.98, 0.45, …]* <br/> ➡️ Meaning as a vector in space"]
+    E["🔍 Similarity Search / RAG <br/> ➡️ Find vectors close in meaning"]
+    F["📄 Retrieved Text <br/> *'AI is transformative!'* <br/> ➡️ Bring back semantically similar text"]
+
+    %% Forward flow
+    A --> B --> C --> D --> E --> F
+
+    %% Reverse view
+    F -.-> A
 ```
 
-**Key Insight**: Each transformation step adds computational power while preserving meaning. Raw text becomes increasingly "AI-friendly" as it moves through this pipeline.
+**Key Insights**:
+
+1. **Forward Processing**: Each transformation step adds computational power while preserving meaning, making text increasingly "AI-friendly"
+2. **Retrieval Loop**: The dotted line shows how retrieved knowledge feeds back into the system, enabling RAG (Retrieval-Augmented Generation) and similarity search applications
+3. **Practical Application**: This complete pipeline powers modern AI features like semantic search, recommendation systems, and knowledge retrieval
 
 ---
 
