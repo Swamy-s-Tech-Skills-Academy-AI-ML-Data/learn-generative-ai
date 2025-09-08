@@ -8,6 +8,7 @@ Description:
     - Encode the text into token IDs  
     - Decode tokens back to the original text  
     - Display a token-to-ID mapping table  
+    - Special "compare" mode: run text through all three major encodings to compare results  
   
 Requirements:  
     pip install tiktoken  
@@ -23,33 +24,14 @@ def get_encoding_for_model(model_name: str) -> tiktoken.Encoding:
     """  
     Determine and return the correct tiktoken encoding for a given OpenAI model.  
 
-    This function uses tiktoken's internal mapping to look up the correct  
-    encoding scheme for the specified model. Encodings define how text is  
-    split into tokens and how tokens are mapped to unique IDs.  
-
-    If the provided model name is not recognized, the function falls back  
-    to using 'cl100k_base', which is the default encoding for most modern  
-    OpenAI models (e.g., GPT-4, GPT-3.5, and latest embeddings).  
+    Uses tiktoken's internal mapping to find the right encoding.  
+    Falls back to 'cl100k_base' if the model is unknown.  
 
     Args:  
-        model_name (str):  
-            The name of the OpenAI model (e.g., "gpt-4", "text-davinci-003").  
-            The name should match an official OpenAI model identifier.  
+        model_name (str): Name of the OpenAI model (e.g., "gpt-4", "text-davinci-003")  
 
     Returns:  
-        tiktoken.Encoding:  
-            The encoding object corresponding to the given model. This object  
-            can be used to encode text into token IDs and decode token IDs back  
-            into text.  
-
-    Example:  
-        >>> enc = get_encoding_for_model("gpt-4")  
-        >>> tokens = enc.encode("Hello world!")  
-        >>> print(tokens)  
-        [9906, 1917, 0]  
-        >>> text = enc.decode(tokens)  
-        >>> print(text)  
-        Hello world!  
+        tiktoken.Encoding: Encoding object for the model.  
     """
     try:
         encoding = tiktoken.encoding_for_model(model_name)
@@ -60,46 +42,45 @@ def get_encoding_for_model(model_name: str) -> tiktoken.Encoding:
     return encoding
 
 
-if __name__ == "__main__":
-    # Get user input
-    model_name = input("Enter the OpenAI model name: ").strip()
-    prompt = input("Enter the text to tokenize: ").strip()
-
-    # Get correct encoding for this model
-    encoding = get_encoding_for_model(model_name)
-
-    # Encode the text
-    tokens = encoding.encode(prompt)
+def display_tokenization(encoding: tiktoken.Encoding, model_label: str, text: str):
+    """Tokenize text with given encoding and print results."""
+    tokens = encoding.encode(text)
     print("\n--- Tokenization ---")
-    print(f"Model: {model_name}")
+    print(f"Model/Encoding: {model_label}")
     print(f"Encoding used: {encoding.name}")
     print(f"Token count: {len(tokens)}")
     print(f"Token IDs: {tokens}")
 
-    # Decode back to string
     decoded_text = encoding.decode(tokens)
     print("\n--- Decoded Text ---")
     print(decoded_text)
 
-    # Token-to-ID mapping
     print("\n--- Token to ID Mapping ---")
     print(f"{'Token':<20} | {'Token ID'}")
     print("-" * 35)
     for token_str, token_id in zip([encoding.decode([t]) for t in tokens], tokens):
         print(f"{repr(token_str):<20} | {token_id}")
 
-##### Examples #####
-# Enter the OpenAI model name: gpt-4
+
+if __name__ == "__main__":
+    model_name = input(
+        "Enter the OpenAI model name (or 'compare' to test all encodings): ").strip()
+    prompt = input("Enter the text to tokenize: ").strip()
+
+    if model_name.lower() == "compare":
+        print("\n[Compare Mode] Testing all major encodings...\n")
+        encodings_to_test = [
+            ("Modern Models (cl100k_base)", tiktoken.get_encoding("cl100k_base")),
+            ("Older GPT-3/Codex (p50k_base)", tiktoken.get_encoding("p50k_base")),
+            ("Legacy GPT-3 (r50k_base)", tiktoken.get_encoding("r50k_base")),
+        ]
+        for label, enc in encodings_to_test:
+            display_tokenization(enc, label, prompt)
+            print("\n" + "=" * 50 + "\n")
+    else:
+        encoding = get_encoding_for_model(model_name)
+        display_tokenization(encoding, model_name, prompt)
+
+# Examples
+# Enter the OpenAI model name (or 'compare' to test all encodings): compare
 # Enter the text to tokenize: I have a white dog named Champ.
-
-# Enter the OpenAI model name: text-davinci-003
-# Enter the text to tokenize: I have a white dog named Champ.
-
-# Enter the OpenAI model name: davinci
-# Enter the text to tokenize: I have a white dog named Champ.
-
-# Enter the OpenAI model name: text-embedding-ada-002
-# Enter the text to tokenize: The quick brown fox jumps over the lazy dog.
-
-# Enter the OpenAI model name: my-custom-model
-# Enter the text to tokenize: This is a test.
