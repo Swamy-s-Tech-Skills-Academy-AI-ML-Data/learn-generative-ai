@@ -433,3 +433,4 @@ __pycache__/
 # Caches / models
 .cache/
 .hf_cache/
+scripts/repo-structure.txt
