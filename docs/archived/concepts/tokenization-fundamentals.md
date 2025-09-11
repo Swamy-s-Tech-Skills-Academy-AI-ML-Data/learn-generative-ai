@@ -1,3 +1,4 @@
+<!-- filename: tokenization-fundamentals.md -->
 # Tokenization Mastery: The Bridge Between Human Language and AI Understanding
 
 *Original educational content crafted for systematic AI concept mastery*

@@ -1,3 +1,4 @@
+<!-- filename: generative-ai-fundamentals.md -->
 # Generative AI Fundamentals
 
 > **📝 Migration Note**: Core Week 1 content from this file has been migrated to:

@@ -1,3 +1,4 @@
+<!-- filename: embeddings-fundamentals.md -->
 # Embeddings Fundamentals: Vector Representations of Meaning
 
 ## Comprehensive guide to understanding how tokens transform into dense vector representations that capture semantic meaning
