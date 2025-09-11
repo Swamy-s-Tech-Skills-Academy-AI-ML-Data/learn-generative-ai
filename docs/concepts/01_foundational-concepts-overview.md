@@ -8,7 +8,7 @@ These four concepts form the **bedrock of understanding** for Generative AI and 
 
 ## 📚 Three-Part Learning Path
 
-### 🧩 [Part 1: Text Processing Fundamentals](./foundational-concepts-part1.md)
+### 🧩 [02: Text Processing Fundamentals](./02_tokens-tokenization.md)
 
 **Focus**: Foundation concepts (100-150 lines)
 
@@ -22,7 +22,7 @@ These four concepts form the **bedrock of understanding** for Generative AI and 
 
 ---
 
-### 🔢 [Part 2: Numerical Representations](./foundational-concepts-part2.md)
+### 🔢 [03: Numerical Representations](./03_encoding-embeddings.md)
 
 **Focus**: Advanced transformation concepts (100-150 lines)
 
@@ -36,7 +36,7 @@ These four concepts form the **bedrock of understanding** for Generative AI and 
 
 ---
 
-### 🌍 [Part 3: Integration & Applications](./foundational-concepts-part3.md)
+### 🌍 [04: Integration & Applications](./04_integration-applications.md)
 
 **Focus**: Complete pipeline and real-world impact (100-150 lines)
 
@@ -81,9 +81,9 @@ flowchart LR
 
 **Recommended Path:**
 
-1. **Begin with [Part 1](./foundational-concepts-part1.md)** - Master tokens and tokenization
-2. **Continue to [Part 2](./foundational-concepts-part2.md)** - Understand encoding and embeddings  
-3. **Complete with [Part 3](./foundational-concepts-part3.md)** - See real-world applications
+1. **Begin with [02: Tokens & Tokenization](./02_tokens-tokenization.md)** - Master tokens and tokenization
+2. **Continue to [03: Encoding & Embeddings](./03_encoding-embeddings.md)** - Understand encoding and embeddings  
+3. **Complete with [04: Integration & Applications](./04_integration-applications.md)** - See real-world applications
 
 **Time Investment**: ~45-60 minutes total (15-20 minutes per part)
 
@@ -101,5 +101,5 @@ flowchart LR
 
 ---
 
-*Start now: [Part 1: Text Processing Fundamentals](./foundational-concepts-part1.md)*
+*Start now: [02: Text Processing Fundamentals](./02_tokens-tokenization.md)*
 *Part of the [90-Day Generative AI Learning Path](../learning-path-90-days.md)*

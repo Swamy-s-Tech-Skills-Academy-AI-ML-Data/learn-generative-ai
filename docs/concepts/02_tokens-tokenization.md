@@ -172,7 +172,7 @@ Try to manually tokenize this text using subword logic:
 
 ---
 
-## 🔄 Coming Up in Part 2
+## 🔄 Coming Up in File 03
 
 In the next part, we'll explore:
 
@@ -192,5 +192,5 @@ In the next part, we'll explore:
 
 ---
 
-*Continue to: [foundational-concepts-part2.md](./foundational-concepts-part2.md)*
+*Continue to: [03: Encoding & Embeddings](./03_encoding-embeddings.md)*
 *Part of the [90-Day Generative AI Learning Path](../learning-path-90-days.md)*

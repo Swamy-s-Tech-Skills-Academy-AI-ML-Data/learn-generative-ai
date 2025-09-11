@@ -1,6 +1,6 @@
 # Foundational Concepts of Generative AI - Part 2: Numerical Representations
 
-## 📚 Previously in Part 1
+## 📚 Previously in File 02
 
 We established the foundation by covering:
 
@@ -8,7 +8,7 @@ We established the foundation by covering:
 - **Tokenization**: Breaking text into manageable chunks (cake slicing analogy)
 - **Processing Pipeline**: Raw text → Tokenization → (You are here)
 
-*Catch up: [foundational-concepts-part1.md](./foundational-concepts-part1.md)*
+*Catch up: [02: Tokens & Tokenization](./02_tokens-tokenization.md)*
 
 ## 🎯 Learning Objectives
 
@@ -200,7 +200,7 @@ Given these simplified embeddings, calculate similarity:
 
 ---
 
-## 🔄 Coming Up in Part 3
+## 🔄 Coming Up in File 04
 
 In the final part, we'll explore:
 
@@ -212,6 +212,6 @@ In the final part, we'll explore:
 
 ---
 
-*Continue to: [foundational-concepts-part3.md](./foundational-concepts-part3.md)*
-*Previous: [foundational-concepts-part1.md](./foundational-concepts-part1.md)*
+*Continue to: [04: Integration & Applications](./04_integration-applications.md)*
+*Previous: [02: Tokens & Tokenization](./02_tokens-tokenization.md)*
 *Part of the [90-Day Generative AI Learning Path](../learning-path-90-days.md)*

@@ -1,13 +1,13 @@
 # Foundational Concepts of Generative AI - Part 3: Integration & Applications
 
-## 📚 Previously in Parts 1 & 2
+## 📚 Previously in Files 02 & 03
 
 We've built understanding step by step:
 
-**Part 1**: Tokens (LEGO bricks) → Tokenization (cake slicing)
-**Part 2**: Encoding (zip codes) → Embeddings (multi-dimensional maps)
+**File 02**: Tokens (LEGO bricks) → Tokenization (cake slicing)
+**File 03**: Encoding (zip codes) → Embeddings (multi-dimensional maps)
 
-*Catch up: [Part 1](./foundational-concepts-part1.md) | [Part 2](./foundational-concepts-part2.md)*
+*Catch up: [02: Tokens & Tokenization](./02_tokens-tokenization.md) | [03: Encoding & Embeddings](./03_encoding-embeddings.md)*
 
 ## 🎯 Learning Objectives
 
@@ -229,5 +229,5 @@ relevant articles to users based on their reading history.
 
 ---
 
-*Series Complete: [Part 1](./foundational-concepts-part1.md) | [Part 2](./foundational-concepts-part2.md) | Part 3*
+*Series Complete: [02: Tokens & Tokenization](./02_tokens-tokenization.md) | [03: Encoding & Embeddings](./03_encoding-embeddings.md) | 04: Integration & Applications*
 *Part of the [90-Day Generative AI Learning Path](../learning-path-90-days.md)*

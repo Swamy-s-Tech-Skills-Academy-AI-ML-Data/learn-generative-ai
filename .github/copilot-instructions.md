@@ -735,12 +735,42 @@ Before finalizing any educational content, verify:
 
 ### Focus Mode Implementation Guidelines
 
+**Sequential File Naming Convention:**
+
+Use numbered files for clear learning progression and easy navigation:
+
+```
+01_topic-name.md - Foundation concepts (100-150 lines)
+02_topic-name.md - Progressive concepts (100-150 lines)
+03_topic-name.md - Advanced applications (100-150 lines)
+04_topic-name.md - Integration & practice (100-150 lines)
+```
+
+**Multi-Part Extension for Complex Topics:**
+
+When content exceeds 150 lines, use A/B/C extensions:
+
+```
+01A_topic-foundations.md - Part A of complex topic (100-150 lines)
+01B_topic-advanced.md    - Part B continuation (100-150 lines)
+01C_topic-practice.md    - Part C applications (100-150 lines)
+```
+
+**Naming Benefits:**
+
+- **Clear Sequence**: Numbers show exact learning order
+- **Scalable Structure**: Easy to add new concepts (05*, 06*, etc.)
+- **Natural Sorting**: Files appear in logical order in file explorers
+- **Easy Cross-Reference**: "See file 03" vs hunting for descriptive names
+- **Multi-Part Logic**: A/B/C system maintains topic cohesion
+
 **Document Creation Process:**
 
 1. **Line Count Monitoring**: Always check document length during creation
 2. **Natural Break Points**: Identify logical splits at 120-130 lines
 3. **Multi-Part Planning**: Design multi-part structure from the beginning
 4. **Cross-Reference Setup**: Plan connections between parts during initial outline
+5. **Sequential Naming**: Apply numbered convention for clear progression
 
 **Content Splitting Strategy:**
 
