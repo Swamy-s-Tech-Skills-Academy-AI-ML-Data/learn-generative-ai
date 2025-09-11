@@ -1,3 +1,4 @@
+# filename: a1_countingtokens.py
 """
 🔤 Token Discovery Laboratory: Understanding AI Text Processing
 

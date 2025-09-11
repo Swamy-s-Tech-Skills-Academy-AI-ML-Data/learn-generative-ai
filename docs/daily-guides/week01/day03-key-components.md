@@ -1,3 +1,4 @@
+<!-- filename: day03-key-components.md -->
 # Day 3: Key Components & Architecture (30 min)
 
 ## 📖 Core Concepts (10 minutes)

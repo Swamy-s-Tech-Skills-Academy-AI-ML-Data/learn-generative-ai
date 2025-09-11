@@ -1,3 +1,4 @@
+<!-- filename: README.md -->
 # Learn Generative AI: 90-Day Systematic Discovery Workshop
 
 **Master Generative AI through systematic, hands-on exploration** - Original learning experiences designed for deep conceptual understanding and production-ready skills.

@@ -1,3 +1,4 @@
+<!-- filename: day04-probability-basics.md -->
 # Day 4: Mathematical Foundations I - Probability Basics (30 min)
 
 ## 📖 Reading Focus (10 minutes)

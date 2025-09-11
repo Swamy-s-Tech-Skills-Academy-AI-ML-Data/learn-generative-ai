@@ -1,3 +1,4 @@
+<!-- filename: day05-loss-functions.md -->
 # Day 5: Mathematical Foundations II - Loss Functions (30 min)
 
 ## 📖 Reading Focus (10 minutes)

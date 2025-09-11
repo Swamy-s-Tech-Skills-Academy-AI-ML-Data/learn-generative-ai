@@ -1,3 +1,4 @@
+# filename: a2_compare_tokenizers.py
 #!/usr/bin/env python3
 """  
 🔍 Compare Tokenizers Across Models  

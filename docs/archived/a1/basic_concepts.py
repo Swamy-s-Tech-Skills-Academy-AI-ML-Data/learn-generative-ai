@@ -1,3 +1,4 @@
+# filename: basic_concepts.py
 #!/usr/bin/env python3
 """
 Chapter 01: Generative AI Foundations - Basic Concepts

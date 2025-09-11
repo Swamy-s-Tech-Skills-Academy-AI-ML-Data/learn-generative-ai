@@ -1,3 +1,4 @@
+<!-- filename: 03_encoding-embeddings.md -->
 # Foundational Concepts of Generative AI - Part 2: Numerical Representations
 
 ## 📚 Previously in File 02

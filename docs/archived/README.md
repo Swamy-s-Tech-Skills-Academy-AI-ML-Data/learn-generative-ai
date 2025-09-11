@@ -1,3 +1,4 @@
+<!-- filename: README.md -->
 # Archived Learning Paths
 
 This directory contains previous versions of our learning paths for reference and comparison purposes.

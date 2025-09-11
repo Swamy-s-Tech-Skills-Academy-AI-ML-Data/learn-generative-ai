@@ -1,3 +1,4 @@
+<!-- filename: 04_integration-applications.md -->
 # Foundational Concepts of Generative AI - Part 3: Integration & Applications
 
 ## 📚 Previously in Files 02 & 03

@@ -1,3 +1,4 @@
+# filename: a1_morphological_bpe.py
 """
 🧬 BPE Morphological Pattern Analyzer
 

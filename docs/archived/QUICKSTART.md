@@ -1,3 +1,4 @@
+<!-- filename: QUICKSTART.md -->
 # Quick Start: Begin Your AI Learning Journey
 
 > **📝 Migration Note**: This QUICKSTART content has been superseded by:

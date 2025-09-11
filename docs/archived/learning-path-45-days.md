@@ -1,3 +1,4 @@
+<!-- filename: learning-path-45-days.md -->
 # 9‑Week Generative AI Learning Path (45 days, 5 days/week, ~30 min/day)
 
 > **📝 Migration Note**: Week 1 content from this learning path has been migrated and enhanced in:

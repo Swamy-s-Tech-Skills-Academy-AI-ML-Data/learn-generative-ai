@@ -1,3 +1,4 @@
+<!-- filename: learning-path-90-days.md -->
 # 18‑Week Generative AI Learning Path (90 days, 5 days/week, ~30 min/day)
 
 This comprehensive plan uses content from this repository's `docs/`, `src/`, and `notebooks/` folders. Study 5 days per week (e.g., Mon–Fri), ~30 minutes per day. Weekends are for rest, catch‑up, or deeper exploration.

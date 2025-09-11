@@ -1,3 +1,4 @@
+<!-- filename: day02-genai-overview.md -->
 # Day 2: How GenAI Works (Overview) (30 min)
 
 ## 📖 Core Concepts (10 minutes)

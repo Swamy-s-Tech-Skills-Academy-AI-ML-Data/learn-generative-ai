@@ -1,3 +1,4 @@
+<!-- filename: copilot-instructions.md -->
 # Copilot Blueprint for AI Discovery Workshop
 
 Welcome to our generative AI discovery workspace! This blueprint helps GitHub Copilot understand our distinctive learning methodology and provide assistance calibrated to systematic AI concept mastery.

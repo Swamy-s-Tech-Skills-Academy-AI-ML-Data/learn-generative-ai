@@ -1,3 +1,4 @@
+# filename: helloworld.py
 """Listing: 1.1 - Basic Hello World example using the OpenAI API
 File: src/day2/helloworld.py
 

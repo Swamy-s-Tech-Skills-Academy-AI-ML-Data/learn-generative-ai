@@ -1,3 +1,4 @@
+# filename: a7_embeddings_discovery_lab.py
 #!/usr/bin/env python3
 """
 🎨 Embeddings Discovery Laboratory

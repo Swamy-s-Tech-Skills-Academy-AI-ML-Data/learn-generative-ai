@@ -1,3 +1,4 @@
+<!-- filename: day01-genai-intro.md -->
 # Day 1: What is Generative AI (30 min)
 
 ## 📖 Core Concepts (10 minutes)

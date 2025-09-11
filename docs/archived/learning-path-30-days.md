@@ -1,3 +1,4 @@
+<!-- filename: learning-path-30-days.md -->
 # Learning Path Moved
 
 > This learning path has moved. Please use the new slower‑pace schedule:
